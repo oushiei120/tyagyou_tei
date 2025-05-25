@@ -3,36 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>茶经 Viewer</title>
+    <link rel="stylesheet" type="text/css" href="https://universalviewer.io/uv/dist/uv.css">
+    <script src="https://universalviewer.io/uv/dist/lib/offline.js"></script>
+    <script src="https://universalviewer.io/uv/dist/uv.js"></script>
     <style>
-        body { font-family: sans-serif; margin: 2em; }
-        .item { margin-bottom: 1em; }
-        .title { font-weight: bold; }
+        body { font-family: sans-serif; margin: 0; padding: 0; height: 100vh; display: flex; flex-direction: column; }
+        h1 { text-align: center; margin: 1em 0; }
+        .uv { width: 100%; height: calc(100vh - 4em); /* Adjust height as needed */ background-color: #000; flex-grow: 1; }
     </style>
 </head>
 <body>
     <h1>茶经 Viewer</h1>
-    <div id="viewer"></div>
-    <script>
-        fetch('manifest.json')
-            .then(response => response.json())
-            .then(manifest => {
-                const viewer = document.getElementById('viewer');
-                // 假设 manifest 是一个对象，包含 items 数组
-                if (manifest.items && Array.isArray(manifest.items)) {
-                    manifest.items.forEach(item => {
-                        const div = document.createElement('div');
-                        div.className = 'item';
-                        div.innerHTML = `<div class="title">${item.title || '无标题'}</div>
-                                         <div>${item.description || ''}</div>`;
-                        viewer.appendChild(div);
-                    });
-                } else {
-                    viewer.textContent = 'manifest.json 格式不正确或没有 items。';
-                }
-            })
-            .catch(err => {
-                document.getElementById('viewer').textContent = '无法加载 manifest.json';
-            });
-    </script>
+    <div class="uv" id="uv"
+         data-uri="./iiif_assets/manifest.json"
+         data-collectionindex="0"
+         data-manifestindex="0"
+         data-sequenceindex="0"
+         data-canvasindex="0">
+    </div>
 </body>
 </html>
