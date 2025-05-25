@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja" class="h-100">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TEI古典籍ビューワ</title>
+  <link rel="stylesheet" href="lib/jquery-ui-1.14.1/jquery-ui.min.css">
+  <link rel="stylesheet" href="lib/bootstrap-5.3.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/fontawesome-free-5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="lib/annotorious-2.7.17/annotorious.min.css">
+  <link rel="stylesheet" href="lib/spin.js-4.1.2/spin.css">
+  <link rel="stylesheet" href="lib/leaflet-1.9.4/leaflet.css">
+  <link rel="stylesheet" href="app.min.css">
+  <script src="lib/jquery-3.7.1/dist/jquery.min.js"></script>
+  <script src="lib/jquery-ui-1.14.1/jquery-ui.min.js"></script>
+  <script src="lib/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/d3-7.9.0/dist/d3.min.js"></script>
+  <script src="lib/wasm-2.20.0/dist/graphviz.umd.js"></script>
+  <script src="lib/d3-graphviz-5.6.0/build/d3-graphviz.min.js"></script>
+  <script src="lib/openseadragon-4.1.1/openseadragon.min.js"></script>
+  <script src="lib/annotorious-2.7.17/openseadragon-annotorious.min.js"></script>
+  <script src="lib/graham_scan_js-1.0.5/graham_scan.min.js"></script>
+  <script src="lib/spin.js-4.1.2/spin.umd.js"></script>
+  <script src="lib/mark.js-8.11.1/dist/jquery.mark.min.js"></script>
+  <script src="lib/jquery-xpath-0.3.1/jquery.xpath.min.js"></script>
+  <script src="lib/leader-line-1.0.7/leader-line.min.js"></script>
+  <script src="lib/leaflet-1.9.4/leaflet.js"></script>
+</head>
+<body class="h-100">
+  <header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container-fluid">
+        <a href="." class="navbar-brand d-flex align-items-center"><strong>TEI古典籍ビューワ</strong></a>
+      </div>
+    </div>
+  </header>
+  <main class="min-vh-100-custom">
+    <div class="container-fluid min-vh-100-custom bg-light" id="container_fluid">
+      <div class="row py-3 min-vh-100-custom">
+        <div class="col-xs-12 col-md-8 order-1 order-md-0" id="left_col">
+          <div class="row" id="row1">
+            <div class="col-12">
+              <div id="text_body" class="w-100" style="writing-mode:vertical-rl;height:600px;">
+                <div id="body_result" class="body-result p-3 w-100" style="overflow-x:scroll;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="rowb">
+            <div class="col-12">
+              <div id="text_bottom" class="w-100" style="writing-mode:vertical-rl;">
+                <div id="bottom_result" class="bottom-result p-3 w-100" style="overflow-x:scroll;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-12">
+              <div id="graph_result" class="w-100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4 d-flex flex-column" id="right_col">
+          <div id="right_panel" class="pe-2">
+            <ul class="nav nav-tabs" id="main_tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home_tab" data-bs-toggle="tab" data-bs-target="#home_tab_pane" type="button" role="tab" aria-controls="home_tab_pane" aria-selected="true">基本</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="main_tab_content">
+              <div class="tab-pane fade show active" id="home_tab_pane" role="tabpanel" aria-labelledby="home_tab" tabindex="0">
+                <div id="input1" class="my-2 overflow-hidden">
+                  <div class="heading1">ファイル</div>
+                  <input class="file_input1 btn btn-default" type="file" multiple>
+                </div>
+                <div id="errors" class="my-2"></div>
+                <div id="legends" class="my-2"></div>
+                <div id="versions" class="my-2"></div>
+                <div id="choice" class="my-2"></div>
+                <div id="textstructures" class="my-2"></div>
+                <div id="additionalUIs" class="my-2"></div>
+                <div id="help" class="my-2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="app.min.js"></script> 
+  <script src="app_conf.js"></script>
+</body>
+</html>

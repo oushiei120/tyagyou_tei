@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>IIIF 茶经数字图像浏览</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html, body { height: 100%; margin: 0; padding: 0; }
+    #uv { width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <div id="uv"></div>
+  <script>
+    // Universal Viewer embed script
+    (function() {
+      var script = document.createElement('script');
+      script.src = "https://unpkg.com/@universalviewer/universalviewer@4.0.0/dist/uv.js";
+      script.onload = function() {
+        window.uv = UV.init("uv", {
+          manifest: "https://oushiei120.github.io/tyagyou_tei/manifest.json",
+          configUri: "https://unpkg.com/@universalviewer/universalviewer@4.0.0/dist/uv-config.json"
+        });
+      };
+      document.body.appendChild(script);
+    })();
+  </script>
+</body>
+</html>

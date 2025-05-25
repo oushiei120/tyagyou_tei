@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@4.0.0/github-markdown.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github.min.css">
+  <style>
+      .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+      }
+    
+      @media (max-width: 767px) {
+        .markdown-body {
+          padding: 15px;
+        }
+      }
+  </style>
+  <title>古典籍ビューワオプション設定</title>
+</head>
+<body>
+  <div>
+    <section>
+      <article class="markdown-body">
+        <h1 id="古典籍ビューワオプション設定">古典籍ビューワオプション設定</h1>
+        <p>古典籍ビューワでは、設定ファイル（app_conf.js）の記述によって動作をカスタマイズできる。</p>
+        <h2 id="設定">設定</h2>
+        <p><code>TEIViewer(config)</code></p>
+        <p><code>config</code>は次に挙げるプロパティを持ったオブジェクト</p>
+        <table>
+          <thead>
+            <tr>
+              <th>項目名</th>
+              <th>型</th>
+              <th>説明</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>xmlidPickup</code></td>
+              <td>Array.&lt;xmlidPickupObject&gt;</td>
+              <td>xml:id参照関係のリスト表示に関する設定を行う</td>
+            </tr>
+            <tr>
+              <td><code>typeToGraphLabelMapping</code></td>
+              <td>Object</td>
+              <td>xml:id参照関係のグラフ表示に関する設定を行う</td>
+            </tr>
+            <tr>
+              <td><code>enableGraph</code></td>
+              <td>Boolean</td>
+              <td>グラフ表示機能の有効・無効を設定する</td>
+            </tr>
+            <tr>
+              <td><code>openSeadragon</code></td>
+              <td>Object</td>
+              <td>OpenSeadragonに関する設定を行う</td>
+            </tr>
+          </tbody>
+        </table>
+        <p><code>xmlidPickupObject</code>は次に挙げるプロパティを持ったオブジェクト</p>
+        <table>
+          <thead>
+            <tr>
+              <th>項目名</th>
+              <th>型</th>
+              <th>説明</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>selector</code></td>
+              <td>String</td>
+              <td>（必須）xml:id参照関係のリスト表示対象とする要素のセレクタ表現</td>
+            </tr>
+            <tr>
+              <td><code>label</code></td>
+              <td>String</td>
+              <td>リスト表示のタブ見出しに用いる表示名</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3 id="xmlidpickup"><code>xmlidPickup</code></h3>
+        <p>xml:id参照関係のリスト表示（ビューワ右側に表示される）について、表示対象とする要素を指定する。</p>
+        <p>例えば、以下のTEI/XMLに対し、「@type属性の値が『題』であるseg要素に設定されたxml:idを対象とし、そのidを参照している要素を抽出して可視化する」ことを考える。</p>
+        <pre><code class="language-XML"><span class="hljs-tag">&lt;<span class="hljs-name">seg</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"題"</span> <span class="hljs-attr">xml:id</span>=<span class="hljs-string">"題1"</span>&gt;</span>旅宿<span class="hljs-tag">&lt;/<span class="hljs-name">seg</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">phr</span> <span class="hljs-attr">corresp</span>=<span class="hljs-string">"#題1"</span>&gt;</span>草まくら<span class="hljs-tag">&lt;/<span class="hljs-name">phr</span>&gt;</span>
+</code></pre>
+        <p>この動作は、<code>xmlidPickup</code>の値として以下を設定することで実現される。</p>
+        <pre><code class="language-JSON">xmlidPickup: [
+    {
+        selector: 'seg[type="題"]',
+        label: '題'
+    }
+]
+</code></pre>
+        <p><code>selector</code>には「@type属性の値が『題』であるseg要素」を意味するセレクタ表現を指定している。</p>
+        <p>また、リスト表示のタブ見出しはデフォルトでは<code>selector</code>で指定した文字列となる。表示を分かりやすくするには、あわせて<code>label</code>の指定を行う。</p>
+        <h3 id="typetographlabelmapping"><code>typeToGraphLabelMapping</code></h3>
+        <p>xml:id参照関係のグラフ表示（ビューワ下部に表示される）について、参照元ノードと参照先ノードを繋ぐ矢印のラベルを指定する。</p>
+        <p>グラフにおいて、参照元ノードと参照先ノードを繋ぐ矢印のラベルは、参照元要素の@type属性の値（@type属性が付与されていない場合はタグ名）としている。</p>
+        <p><code>typeToGraphLabelMapping</code>に、@type属性の値をキーとし、矢印のラベル表示名を値とするペアを設定することによって、矢印のラベルを変更できる。</p>
+        <p>例えば、以下のTEI/XMLにおいては、@type属性の値を「kakusen」「hyosen」とローマ字で記述しており、矢印のラベルは「kakusen」「hyosen」となる。</p>
+        <pre><code class="language-XML"><span class="hljs-tag">&lt;<span class="hljs-name">seg</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"sutra"</span> <span class="hljs-attr">xml:id</span>=<span class="hljs-string">"mondo01.01"</span>&gt;</span>爾時大慧菩薩摩訶薩復白佛言<span class="hljs-tag">&lt;/<span class="hljs-name">seg</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">seg</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"kakusen"</span> <span class="hljs-attr">corresp</span>=<span class="hljs-string">"#mondo01.01"</span>&gt;</span>起詞<span class="hljs-tag">&lt;/<span class="hljs-name">seg</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">seg</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"hyosen"</span> <span class="hljs-attr">corresp</span>=<span class="hljs-string">"#mondo01.01"</span>&gt;</span>起段。結集家置。爾時及復解皆見上。<span class="hljs-tag">&lt;/<span class="hljs-name">seg</span>&gt;</span>
+</code></pre>
+        <p>このとき、<code>typeToGraphLabelMapping</code>に以下を設定することで、矢印のラベル表示を「kakusen」から「格箋」、「hyosen」から「平箋」に変更することができる。</p>
+        <pre><code class="language-JSON">typeToGraphLabelMapping: {
+    'kakusen': '格箋',
+    'hyosen': '平箋'
+}
+</code></pre>
+        <h3 id="enablegraph"><code>enableGraph</code></h3>
+        <p>グラフ表示機能の有効・無効を設定する。</p>
+        <p>未設定または<code>true</code>の場合はグラフ表示機能が有効となり、<code>false</code>の場合は無効となる。</p>
+        <h3 id="openseadragon"><code>openSeadragon</code></h3>
+        <p>OpenSeadragonに関する設定を行う。</p>
+        <p>次に挙げるプロパティを持ったオブジェクトを記述する。</p>
+        <table>
+          <thead>
+            <tr>
+              <th>項目名</th>
+              <th>型</th>
+              <th>説明</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>highlight</code></td>
+              <td>Boolean</td>
+              <td>&lt;zone&gt;のハイライト表示有無を設定する。未設定または<code>true</code>の場合はハイライト表示される。</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="設定例">設定例</h2>
+        <pre><code class="language-JavaScript">(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">const</span> config = {
+        <span class="hljs-attr">xmlidPickup</span>: [
+            <span class="hljs-comment">// selectorは必須、labelは任意（未設定の場合selectorを使用）</span>
+            {
+                <span class="hljs-attr">selector</span>: <span class="hljs-string">'seg[type="題"]'</span>,
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'題'</span>
+            },
+            {
+                <span class="hljs-attr">selector</span>: <span class="hljs-string">'person'</span>,
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'人物'</span>
+            }
+        ],
+        <span class="hljs-attr">typeToGraphLabelMapping</span>: {
+            <span class="hljs-string">'kakusen'</span>: <span class="hljs-string">'格箋'</span>,
+            <span class="hljs-string">'hyosen'</span>: <span class="hljs-string">'平箋'</span>,
+            <span class="hljs-string">'chisen'</span>: <span class="hljs-string">'智箋'</span>
+        },
+        <span class="hljs-attr">enableGraph</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-attr">openSeadragon</span>: {
+            <span class="hljs-attr">highlight</span>: <span class="hljs-literal">true</span>
+        }
+    };
+    <span class="hljs-keyword">return</span> TEIViewer(config);
+})();
+</code></pre>
+      </article>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+		      <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uid" version="3.0" xml:lang="zh" prefix="cc: http://creativecommons.org/ns#">
+			     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+				    <dc:identifier id="uid">https://zh.wikisource.org/wiki/%E8%8C%B6%E7%B6%93</dc:identifier>
+				    <meta property="dcterms:modified">2025-05-19T02:27:39Z</meta>
+				    <dc:language>zh</dc:language>
+				    <dc:title id="meta-title">茶經</dc:title>
+				    <meta refines="#meta-title" property="title-type">main</meta>
+				    <dc:source>https://zh.wikisource.org/wiki/%E8%8C%B6%E7%B6%93</dc:source>
+				    <dc:rights xml:lang="en">Creative Commons BY-SA 3.0</dc:rights>
+				    <link rel="cc:license" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+				    <dc:rights xml:lang="en">GNU Free Documentation License</dc:rights>
+				    <link rel="cc:license" href="http://www.gnu.org/copyleft/fdl.html" />
+				    <dc:contributor id="meta-bkp">Wikisource</dc:contributor>
+				    <meta refines="#meta-bkp" property="role" scheme="marc:relators">bkp</meta><meta name="cover" content="title" /></metadata>
+			     <manifest>
+				    <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav" />
+				    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/><item id="title" href="title.xhtml" media-type="application/xhtml+xml" />
+				    <item id="mainCss" href="main.css" media-type="text/css" /><item id="Wikisource-logo.svg.png" href="images/Wikisource-logo.svg.png" media-type="image/png" /><item id="c0_cha_jing" href="c0_cha_jing.xhtml" media-type="application/xhtml+xml" />
+<item id="c1_cha_jing_juan_shang" href="c1_cha_jing_juan_shang.xhtml" media-type="application/xhtml+xml" />
+<item id="c2_cha_jing_yi_zhi_yuan" href="c2_cha_jing_yi_zhi_yuan.xhtml" media-type="application/xhtml+xml" />
+<item id="c3_cha_jing_er_zhi_ju" href="c3_cha_jing_er_zhi_ju.xhtml" media-type="application/xhtml+xml" />
+<item id="c4_cha_jing_san_zhi_zao" href="c4_cha_jing_san_zhi_zao.xhtml" media-type="application/xhtml+xml" />
+<item id="c5_cha_jing_juan_zhong" href="c5_cha_jing_juan_zhong.xhtml" media-type="application/xhtml+xml" />
+<item id="c6_cha_jing_si_zhi_qi" href="c6_cha_jing_si_zhi_qi.xhtml" media-type="application/xhtml+xml" />
+<item id="c7_cha_jing_juan_xia" href="c7_cha_jing_juan_xia.xhtml" media-type="application/xhtml+xml" />
+<item id="c8_cha_jing_wu_zhi_zhu" href="c8_cha_jing_wu_zhi_zhu.xhtml" media-type="application/xhtml+xml" />
+<item id="c9_cha_jing_liu_zhi_yin" href="c9_cha_jing_liu_zhi_yin.xhtml" media-type="application/xhtml+xml" />
+<item id="c10_cha_jing_qi_zhi_shi" href="c10_cha_jing_qi_zhi_shi.xhtml" media-type="application/xhtml+xml" />
+<item id="c11_cha_jing_ba_zhi_chu" href="c11_cha_jing_ba_zhi_chu.xhtml" media-type="application/xhtml+xml" />
+<item id="c12_cha_jing_jiu_zhi_lue" href="c12_cha_jing_jiu_zhi_lue.xhtml" media-type="application/xhtml+xml" />
+<item id="c13_cha_jing_shi_zhi_tu" href="c13_cha_jing_shi_zhi_tu.xhtml" media-type="application/xhtml+xml" />
+<item id="c14_Wikimedia_logo.svg_20px_Wikimedia_logo.svg.png" href="images/c14_Wikimedia_logo.svg_20px_Wikimedia_logo.svg.png" media-type="image/png" />
+<item id="c15_PD_icon.svg_60px_PD_icon.svg.png" href="images/c15_PD_icon.svg_60px_PD_icon.svg.png" media-type="image/png" />
+<item id="c16_du_yin_mao.png_20px_du_yin_mao.png" href="images/c16_du_yin_mao.png_20px_du_yin_mao.png" media-type="image/png" />
+<item id="about" href="about.xhtml" media-type="application/xhtml+xml" />
+			     </manifest>
+			     <spine toc="ncx"><itemref idref="title" linear="yes" /><itemref idref="c0_cha_jing" linear="yes" /><itemref idref="c1_cha_jing_juan_shang" linear="yes" /><itemref idref="c2_cha_jing_yi_zhi_yuan" linear="yes" /><itemref idref="c3_cha_jing_er_zhi_ju" linear="yes" /><itemref idref="c4_cha_jing_san_zhi_zao" linear="yes" /><itemref idref="c5_cha_jing_juan_zhong" linear="yes" /><itemref idref="c6_cha_jing_si_zhi_qi" linear="yes" /><itemref idref="c7_cha_jing_juan_xia" linear="yes" /><itemref idref="c8_cha_jing_wu_zhi_zhu" linear="yes" /><itemref idref="c9_cha_jing_liu_zhi_yin" linear="yes" /><itemref idref="c10_cha_jing_qi_zhi_shi" linear="yes" /><itemref idref="c11_cha_jing_ba_zhi_chu" linear="yes" /><itemref idref="c12_cha_jing_jiu_zhi_lue" linear="yes" /><itemref idref="c13_cha_jing_shi_zhi_tu" linear="yes" /><itemref idref="about" linear="yes" />
+			     </spine>
+		      </package>
