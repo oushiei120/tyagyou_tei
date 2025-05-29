@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="zh-Hant">茶經 : 三卷</title>
+                <title xml:lang="en">Cha jing : 3 juan</title>
+                <author xml:lang="zh-Hant">陸羽</author>
+                <author xml:lang="en">Lu Yu</author>
+                <respStmt>
+                    <resp xml:lang="zh-Hant">撰</resp>
+                    <resp xml:lang="en">author</resp>
+                    <persName xml:lang="zh-Hant">陸羽</persName>
+                    <persName xml:lang="en">Lu Yu</persName>
+                    <idno type="VIAF">733-804</idno> <!-- 这里的 VIAF ID 是一个示例，实际应查找对应的 VIAF ID -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition xml:lang="zh-Hant">校刋本</edition>
+                <edition xml:lang="en">Collated and printed edition</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher xml:lang="zh-Hant">哈佛燕京圖書館</publisher>
+                <publisher xml:lang="en">Harvard-Yenching Library</publisher>
+                <date when="2023">2023</date> <!-- 假设这是TEI文件的发布日期，实际应根据项目情况填写 -->
+                <availability status="free">
+                    <p xml:lang="zh-Hant">本文件可供自由使用。</p>
+                    <p xml:lang="en">This document is freely available.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title xml:lang="zh-Hant">茶經</title>
+                        <title xml:lang="en">Cha jing</title>
+                        <imprint>
+                            <pubPlace xml:lang="zh-Hant">
+                                <name>中國</name>
+                                <orig>China</orig>
+                            </pubPlace>
+                            <publisher xml:lang="zh-Hant">陳文燭</publisher>
+                            <publisher xml:lang="en">Chen Wenzhu</publisher>
+                            <date when="1588-00-00" xml:lang="zh-Hant">明萬曆戊子</date>
+                            <date when="1588-00-00" xml:lang="en">Ming Wanli wu zi</date>
+                        </imprint>
+                        <extent>
+                            <measure unit="volume">1</measure>
+                            <dimensions unit="寸">
+                                <!-- 如果有具体尺寸信息可以填写 -->
+                            </dimensions>
+                        </extent>
+                    </monogr>
+                    <series>
+                        <title level="s" xml:lang="zh-Hant">茶書</title>
+                        <title level="s" xml:lang="en">Cha shu</title>
+                        <biblScope unit="卷">1</biblScope>
+                        <ptr target="https://library.harvard.edu/collections/harvard-yenching-library-chinese-rare-books-digitization-project-philosophy"/>
+                    </series>
+                    <note xml:lang="zh-Hant">校刋本</note>
+                    <note xml:lang="en">Collated and printed edition</note>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <country xml:lang="zh-Hant">中國</country>
+                        <country xml:lang="en">China</country>
+                        <settlement xml:lang="zh-Hant">哈佛</settlement>
+                        <settlement xml:lang="en">Harvard</settlement>
+                        <institution xml:lang="zh-Hant">哈佛大學</institution>
+                        <institution xml:lang="en">Harvard University</institution>
+                        <repository xml:lang="zh-Hant">哈佛燕京圖書館</repository>
+                        <repository xml:lang="en">Harvard-Yenching Library</repository>
+                        <idno type="HOLLIS">990078820970203941</idno>
+                        <altIdentifier type="permalink">
+                            <idno type="URI">https://id.lib.harvard.edu/alma/990078820970203941/catalog</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="zh">Chinese</textLang>
+                        <msItem>
+                            <locus from="1" to="3" unit="juan">卷1-3</locus>
+                            <author xml:lang="zh-Hant">陸羽</author>
+                            <author xml:lang="en">Lu Yu</author>
+                            <title xml:lang="zh-Hant">茶經</title>
+                            <title xml:lang="en">Cha jing</title>
+                            <term type="subject" xml:lang="zh-Hant">茶葉 -- 中國</term>
+                            <term type="subject" xml:lang="en">Tea -- China</term>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc>
+                                <support>
+                                    <!-- 可以在这里添加更详细的物理载体信息 -->
+                                </support>
+                                <extent>
+                                    <measure unit="volume">1</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+            <profileDesc>
+                <textClass>
+                    <keywords scheme="http://id.loc.gov/authorities/subjects">
+                        <term>Tea -- China</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </fileDesc>
+    </teiHeader>
+
+  <facsimile sameAs="https://oushiei120.github.io/tyagyou_tei/manifest.json">
+    <surface xml:id="m01p001" ulx="0" uly="0" lrx="2355" lry="1956" sameAs="https://oushiei120.github.io/tyagyou_tei/canvas/00.json">
+        <label>1</label>
+        <graphic width="2355px" height="1956px" 
+                 url="https://oushiei120.github.io/tyagyou_tei/images/00/full/full/0/default.jpg" 
+                 sameAs="https://oushiei120.github.io/tyagyou_tei/images/00"/>
+    </surface>
+    <surface xml:id="m01p002" ulx="0" uly="0" lrx="2355" lry="1955" sameAs="https://oushiei120.github.io/tyagyou_tei/canvas/01.json">
+        <label>2</label>
+        <graphic width="2355px" height="1955px" 
+                 url="https://oushiei120.github.io/tyagyou_tei/images/01/full/full/0/default.jpg" 
+                 sameAs="https://oushiei120.github.io/tyagyou_tei/images/01"/>
+    </surface>
+    <surface xml:id="m01p003" ulx="0" uly="0" lrx="2354" lry="1972" sameAs="https://oushiei120.github.io/tyagyou_tei/canvas/02.json">
+        <label>3</label>
+        <graphic width="2354px" height="1972px" 
+                 url="https://oushiei120.github.io/tyagyou_tei/images/02/full/full/0/default.jpg" 
+                 sameAs="https://oushiei120.github.io/tyagyou_tei/images/02"/>
+    </surface>
+    </facsimile>
+  <text>
+      <body style="writing-mode:vertical-rl">
+         <div1 type="卷" n="1">
+            <head></head>
+             
+          </div1>
+      </body>
+  </text>
+</TEI>

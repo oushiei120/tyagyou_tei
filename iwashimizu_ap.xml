@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+                <title>石清水社歌合</title>
+                <author>後鳥羽院ほか</author>
+                <respStmt>
+                    <resp>Text Encoding</resp>
+                    <persName>幾浦裕之</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>翻刻・校異</resp>
+                    <persName>田口暢之</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>研究代表者</resp>
+                    <persName>加藤弓枝</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><p>TEI準拠マークアップの試作</p></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Japan</country>
+                        <region type="country"></region>
+                        <settlement>Tokyo</settlement>
+                        <institution>国立公文書館</institution>
+                        <repository ref="https://www.digital.archives.go.jp/">国立公文書館デジタルアーカイブ</repository>
+                        <collection>内閣文庫</collection>
+                        <idno>２０１－０２１２</idno>
+                        <altIdentifier><idno type="URI">https://www.digital.archives.go.jp/img/1236893</idno></altIdentifier>
+                        <altIdentifier><idno type="著作ID">100107</idno></altIdentifier>
+                        <altIdentifier><idno type="書誌ID">100012546</idno></altIdentifier>
+                        <altIdentifier><idno type="DOI">10.20730/100012546</idno></altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>建仁元年(1201)12月28日に、石清水社に奉納された歌合。
+                            作者は後鳥羽院以下、代表的な新古今歌人30人。判者は不明だが、俊成かと考えられる。
+                            現存するのは1題15番だが、本来は3題45番、90首の歌合であった。
+                            作者の一人である藤原定家の日記『明月記』に奉納の様子などが記される。
+                            このTEI/XMLでは国立公文書館内閣文庫蔵本（『新編国歌大観』の『石清水社歌合』の底本)
+                            を底本として翻刻した。すでに、谷山茂・樋口芳麻呂『未刊中世歌合集　上』（古典文庫、1959）
+                            が同本を底本として彰考館蔵本と校合している。
+                            このTEI/XMLでは、新たに群馬大学総合情報メディアセンター蔵本と、
+                            鶴見大学図書館蔵本の校異をも示した。現在、知られている伝本は上記の4本のみである。
+                        </summary>
+                    </msContents>
+                </msDesc>
+               <listWit>
+                    <witness xml:id="内">国立公文書館内閣文庫蔵本
+                        <ref target="#mp01"/></witness>
+                    <witness xml:id="鶴">鶴見大学図書館蔵本</witness>
+                    <witness xml:id="群">群馬大学総合情報メディアセンター蔵本
+                        <ref target="#mp02"/></witness>
+                </listWit>
+            </sourceDesc>
+    </fileDesc>
+    <encodingDesc><variantEncoding method="parallel-segmentation"
+        location="internal"/>
+    </encodingDesc>
+    <revisionDesc>
+        <change when="2024-02-16" resp="knagasaki">
+<p>
+	  <persName>永崎研宣</persName>が、zoneを含むfacimileを追加してlem, rdgにzoneのID参照を付与した。</p>
+	</change>
+        <change when="2024-01-04">
+            <persName>幾浦裕之</persName>
+        </change>
+    </revisionDesc>
+</teiHeader>
+<facsimile sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/manifest">
+<surface xml:id="m01p001" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/1">
+<label>1</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0001.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0001.tif"/>
+</surface>
+<surface xml:id="m01p002" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/2">
+<label>2</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0002.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0002.tif"/>
+</surface>
+<surface xml:id="m01p003" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/3">
+<label>3</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0003.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0003.tif"/>
+<zone xml:id="m01p003z01" lry="656" lrx="471" uly="454" ulx="406"/>
+<zone xml:id="m01p003z02" lry="387" lrx="346" uly="156" ulx="290"/>
+</surface>
+<surface xml:id="m01p004" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/4">
+<label>4</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0004.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0004.tif"/>
+<zone xml:id="m01p004z01" lry="393" lrx="1026" uly="319" ulx="984"/>
+<zone xml:id="m01p004z02" lry="700" lrx="862" uly="396" ulx="803"/>
+<zone xml:id="m01p004z03" lry="581" lrx="736" uly="452" ulx="695"/>
+<zone xml:id="m01p004z04" lry="452" lrx="391" uly="287" ulx="345"/>
+<zone xml:id="m01p004z05" lry="559" lrx="214" uly="379" ulx="168"/>
+</surface>
+<surface xml:id="m01p005" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/5">
+<label>5</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0005.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0005.tif"/>
+<zone xml:id="m01p005z01" lry="427" lrx="1034" uly="226" ulx="986"/>
+<zone xml:id="m01p005z02" lry="301" lrx="390" uly="221" ulx="352"/>
+</surface>
+<surface xml:id="m01p006" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/6">
+<label>6</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0006.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0006.tif"/>
+<zone xml:id="m01p006z01" lry="711" lrx="910" uly="630" ulx="866"/>
+<zone xml:id="m01p006z02" lry="682" lrx="681" uly="530" ulx="625"/>
+</surface>
+<surface xml:id="m01p007" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/7">
+<label>7</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0007.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0007.tif"/>
+<zone xml:id="m01p007z01" lry="520" lrx="1081" uly="441" ulx="1041"/>
+<zone xml:id="m01p007z02" lry="403" lrx="503" uly="239" ulx="464"/>
+<zone xml:id="m01p007z03" lry="755" lrx="383" uly="683" ulx="342"/>
+<zone xml:id="m01p007z04" lry="322" lrx="322" uly="227" ulx="295"/>
+<zone xml:id="m01p007z05" lry="568" lrx="159" uly="388" ulx="107"/>
+<zone xml:id="m01p007z06" lry="613" lrx="152" uly="569" ulx="114"/>
+</surface>
+<surface xml:id="m01p008" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/8">
+<label>8</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0008.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0008.tif"/>
+<zone xml:id="m01p008z01" lry="275" lrx="160" uly="154" ulx="104"/>
+</surface>
+<surface xml:id="m01p009" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/9">
+<label>9</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0009.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0009.tif"/>
+<zone xml:id="m01p009z01" lry="706" lrx="968" uly="529" ulx="915"/>
+<zone xml:id="m01p009z02" lry="324" lrx="384" uly="156" ulx="344"/>
+<zone xml:id="m01p009z03" lry="669" lrx="210" uly="484" ulx="168"/>
+</surface>
+<surface xml:id="m01p010" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/10">
+<label>10</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0010.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0010.tif"/>
+<zone xml:id="m01p010z01" lry="318" lrx="1078" uly="233" ulx="1035"/>
+<zone xml:id="m01p010z02" lry="344" lrx="916" uly="231" ulx="864"/>
+<zone xml:id="m01p010z03" lry="752" lrx="203" uly="717" ulx="168"/>
+<zone xml:id="m01p010z04" lry="301" lrx="144" uly="225" ulx="107"/>
+</surface>
+<surface xml:id="m01p011" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/11">
+<label>11</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0011.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0011.tif"/>
+<zone xml:id="m01p011z01" lry="544" lrx="967" uly="457" ulx="923"/>
+<zone xml:id="m01p011z02" lry="545" lrx="788" uly="459" ulx="746"/>
+<zone xml:id="m01p011z03" lry="454" lrx="688" uly="326" ulx="632"/>
+<zone xml:id="m01p011z04" lry="661" lrx="501" uly="509" ulx="459"/>
+</surface>
+<surface xml:id="m01p012" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/12">
+<label>12</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0012.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0012.tif"/>
+<zone xml:id="m01p012z01" lry="673" lrx="850" uly="555" ulx="810"/>
+<zone xml:id="m01p012z02" lry="440" lrx="386" uly="339" ulx="339"/>
+<zone xml:id="m01p012z03" lry="446" lrx="266" uly="337" ulx="230"/>
+</surface>
+<surface xml:id="m01p013" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/13">
+<label>13</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0013.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0013.tif"/>
+<zone xml:id="m01p013z01" lry="763" lrx="854" uly="684" ulx="808"/>
+</surface>
+<surface xml:id="m01p014" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/14">
+<label>14</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0014.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0014.tif"/>
+<zone xml:id="m01p014z01" lry="292" lrx="726" uly="235" ulx="688"/>
+</surface>
+<surface xml:id="m01p015" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/15">
+<label>15</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0015.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0015.tif"/>
+</surface>
+<surface xml:id="m01p016" ulx="0" uly="0" lrx="1200" lry="867" sameAs="https://kokusho.nijl.ac.jp/biblio/100012546/canvas/16">
+<label>16</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0016.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100012546/v4/0019/0019-0146009/0019-0146009-0016.tif"/>
+</surface>
+</facsimile>
+<facsimile sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/manifest">
+<surface xml:id="m02p001" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/1">
+<label>1</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0000.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0000.tif"/>
+</surface>
+<surface xml:id="m02p002" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/2">
+<label>2</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0001.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0001.tif"/>
+</surface>
+<surface xml:id="m02p003" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/3">
+<label>3</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0002.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0002.tif"/>
+</surface>
+<surface xml:id="m02p004" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/4">
+<label>4</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0003.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0003.tif"/>
+<zone xml:id="m02p004z01" lry="2870" lrx="2356" uly="2486" ulx="2128"/>
+<zone xml:id="m02p004z02" lry="3578" lrx="2160" uly="2810" ulx="1900"/>
+<zone xml:id="m02p004z03" lry="3908" lrx="1448" uly="3436" ulx="1260"/>
+<zone xml:id="m02p004z04" lry="3048" lrx="716" uly="1716" ulx="544"/>
+</surface>
+<surface xml:id="m02p005" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/5">
+<label>5</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0004.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0004.tif"/>
+<zone xml:id="m02p005z01" lry="2900" lrx="4944" uly="2496" ulx="4776"/>
+<zone xml:id="m02p005z02" lry="3448" lrx="4348" uly="3084" ulx="4128"/>
+<zone xml:id="m02p005z03" lry="3260" lrx="3800" uly="2576" ulx="3676"/>
+<zone xml:id="m02p005z04" lry="3428" lrx="3368" uly="2952" ulx="3192"/>
+<zone xml:id="m02p005z05" lry="2956" lrx="1252" uly="2724" ulx="1024"/>
+</surface>
+<surface xml:id="m02p006" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/6">
+<label>6</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0005.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0005.tif"/>
+<zone xml:id="m02p006z01" lry="3188" lrx="4528" uly="2792" ulx="4364"/>
+<zone xml:id="m02p006z02" lry="3860" lrx="4076" uly="3540" ulx="3932"/>
+<zone xml:id="m02p006z03" lry="4096" lrx="2048" uly="3784" ulx="1900"/>
+</surface>
+<surface xml:id="m02p007" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/7">
+<label>7</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0006.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0006.tif"/>
+<zone xml:id="m02p007z01" lry="3460" lrx="5168" uly="3000" ulx="5020"/>
+<zone xml:id="m02p007z02" lry="2636" lrx="4720" uly="2284" ulx="4564"/>
+<zone xml:id="m02p007z03" lry="2576" lrx="4024" uly="2160" ulx="3868"/>
+<zone xml:id="m02p007z04" lry="2800" lrx="4012" uly="2584" ulx="3872"/>
+<zone xml:id="m02p007z05" lry="2956" lrx="1236" uly="2672" ulx="1016"/>
+<zone xml:id="m02p007z06" lry="3160" lrx="700" uly="2760" ulx="568"/>
+</surface>
+<surface xml:id="m02p008" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/8">
+<label>8</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0007.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0007.tif"/>
+<zone xml:id="m02p008z01" lry="3136" lrx="4048" uly="2660" ulx="3876"/>
+<zone xml:id="m02p008z02" lry="4036" lrx="3612" uly="3644" ulx="3480"/>
+<zone xml:id="m02p008z03" lry="3184" lrx="3436" uly="2976" ulx="3236"/>
+<zone xml:id="m02p008z04" lry="3736" lrx="2252" uly="3116" ulx="2104"/>
+</surface>
+<surface xml:id="m02p009" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/9">
+<label>9</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0008.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0008.tif"/>
+<zone xml:id="m02p009z01" lry="2932" lrx="5164" uly="2600" ulx="5068"/>
+<zone xml:id="m02p009z02" lry="2564" lrx="4512" uly="2052" ulx="4380"/>
+<zone xml:id="m02p009z03" lry="2496" lrx="4056" uly="2128" ulx="3924"/>
+<zone xml:id="m02p009z04" lry="3572" lrx="3952" uly="3200" ulx="3720"/>
+<zone xml:id="m02p009z05" lry="2036" lrx="3344" uly="1664" ulx="3208"/>
+<zone xml:id="m02p009z06" lry="2976" lrx="1100" uly="2624" ulx="980"/>
+</surface>
+<surface xml:id="m02p010" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/10">
+<label>10</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0009.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0009.tif"/>
+<zone xml:id="m02p010z01" lry="1952" lrx="4432" uly="1644" ulx="4268"/>
+<zone xml:id="m02p010z02" lry="2256" lrx="4212" uly="1972" ulx="4068"/>
+<zone xml:id="m02p010z03" lry="2896" lrx="2368" uly="2660" ulx="2260"/>
+</surface>
+<surface xml:id="m02p011" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/11">
+<label>11</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0010.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0010.tif"/>
+<zone xml:id="m02p011z01" lry="2220" lrx="4460" uly="1964" ulx="4312"/>
+</surface>
+<surface xml:id="m02p012" ulx="0" uly="0" lrx="5632" lry="4672" sameAs="https://kokusho.nijl.ac.jp/biblio/100040538/canvas/12">
+<label>12</label>
+<graphic width="6890px" height="4706px" url="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0011.tif/full/full/0/default.jpg" sameAs="https://kokusho.nijl.ac.jp/api/iiif/100040538/v4/0077/0077-0019010/0077-0019010-0011.tif"/>
+</surface>
+</facsimile>
+
+    <text><body style="writing-mode:vertical-rl">
+           <pb/><div><lb/><p>石清水社哥合　建仁元年十二月廿八日</p></div>
+        <div type="番"><div type="左右歌">
+            <head>一番</head>
+            <head><seg xml:id="題1">旅宿</seg><seg xml:id="題2">嵐</seg></head>
+            <lb/><div type="左歌">
+               <head> <lb style="text-indent:2em"/><title type="左右歌">左勝</title>
+                <app><lem wit="#内" facs="#m01p003z01"><persName corresp="#後鳥羽院">女房後鳥羽院</persName></lem><rdg wit="#群" facs="#m02p004z01"><persName corresp="#後鳥羽院">女房</persName></rdg></app></head>
+            <lb/>
+            <l n="1" resp="#後鳥羽院" xml:id="n1"><rs corresp="#後鳥羽院">
+                <seg type="句"><phr corresp="#題1">草まくら</phr></seg>
+                <seg type="句">むすはぬゆめは</seg>
+                <seg type="句">夜ころへて</seg>
+                <lb/><seg type="句"><app><lem wit="#内" facs="#m01p003z02">たゝ<phr corresp="#題2">山風</phr>の</lem>
+                    <rdg wit="#群" facs="#m02p004z02">たゝ<phr corresp="#題2"><ruby><rb>あらし</rb><rt>山かせのイ</rt></ruby></phr>のみ</rdg></app>
+                </seg><seg type="句">松にふくこゑ</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head> <title>右</title>
+            <persName corresp="#藤原忠良">忠良</persName></head>
+            <lb/>
+            <l n="2" resp="#藤原忠良" xml:id="n2"><rs corresp="#藤原忠良">
+                <seg type="句">雲ちかき</seg>
+                <phr corresp="#題1"><seg type="句">みねの木の葉を</seg>
+                <seg type="句">かた敷て</seg></phr>
+                <lb/><seg type="句">枕のしたに</seg>
+                <seg type="句"><phr corresp="#題2">あらし</phr>をそ聞</seg></rs></l></div></div>
+            <pb/>
+            <lb/><div type="判詞">
+                <note target="#n2">右哥すゑの句なとよろしく <lb/>聞え<app><lem wit="#内" facs="#m01p004z01">侍を</lem><rdg wit="#群" facs="#m02p004z03">侍れ<ruby><rb>は</rb><rt>と</rt></ruby></rdg></app></note>
+                <note target="#n1">左哥むすはぬゆめは<lb/>夜ころへてとをきてたゝ山風の <lb/>と侍心こと葉猶有かたく聞え
+                    <lb/>侍れは</note><note type="勝負" n="#左歌" target="#n1">左<app><lem wit="#内" facs="#m01p004z02">無限勝歟侍とや</lem><rdg wit="#群" facs="#m02p004z04">無限勝なりと侍にや</rdg><rdg wit="#鶴">無限<ruby><rb>○</rb><rt>勝歟</rt></ruby>侍とや</rdg></app></note></div></div>
+        <lb style="text-indent:1em"/><div type="左右歌"><head>二番</head>
+               <div type="左歌"><lb style="text-indent:2em"/><head>左持<app><lem wit="#内" facs="#m01p004z03"><persName corresp="#源通親">内大臣</persName></lem><rdg wit="#群" facs="#m02p005z01"><persName corresp="#内大臣">内府</persName></rdg></app></head>
+            <lb/><l n="3" resp="#源通親" xml:id="n3"><rs corresp="#源通親">
+                <seg type="句">しほれ果て</seg>
+                <seg type="句">結ふさひしき</seg>
+                <seg type="句"><phr corresp="#題1">くさまくら</phr></seg>
+            <pb/><lb/>
+                <seg type="句">なにと<phr corresp="#題2">嵐</phr>の</seg>
+                <seg type="句">あはれそふらむ</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head>右<persName corresp="#小侍従">小侍従</persName></head>
+            <lb/><l n="4" resp="#小侍従" xml:id="n4"><rs corresp="#小侍従">
+                <seg type="句">吹すくる</seg>
+                <seg type="句">峯の<phr corresp="#題2">あらし</phr>も</seg>
+                <seg type="句">心せよ</seg>
+                <lb/><seg type="句"><phr corresp="#題1">真木の<app><lem wit="#内" facs="#m01p004z04">いたふし</lem><rdg wit="#群"  facs="#m02p005z02"><ruby><rb>いた</rb><rt>下</rt></ruby>ふし</rdg></app></phr></seg>
+                <seg type="句">今夜はかりそ</seg></rs></l></div>
+            <lb/><div type="判詞"><note target="#n3"><s>左哥心いとおかしく見え侍り</s></note>
+            <lb/><note target="#n4">右うたすかたはよろしく侍る
+            <lb/>をまきの                
+                <app>
+                    <lem wit="#内" facs="#m01p004z05">板ふしと</lem>
+                    <rdg wit="#群" facs="#m02p005z03">いたふしとは</rdg>
+                </app>
+                何事にか
+            <lb/>侍らんまきの下なとに臥たる
+            <pb/><lb/>心にやおほつかなく侍れは</note><note type="勝負" n="0">勝劣
+                <lb/><app><lem wit="#内" facs="#m01p005z01">申かたくや</lem><rdg wit="#群" facs="#m02p005z04">難申や</rdg></app></note></div></div>
+        <lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>三番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左勝<persName corresp="#慈円">慈円</persName></head>
+            <lb/><l n="5" resp="#慈円" xml:id="n5"><rs corresp="#慈円">
+                <seg type="句">野辺さむし</seg>
+                <phr corresp="#題1"><seg type="句">荻の枯葉を</seg>
+                <seg type="句">片敷て</seg></phr>
+            <lb/><seg type="句">過る<phr corresp="#題2">あらし</phr>を</seg>
+                <seg type="句">まくらにそきく</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head>右<persName corresp="#宮内卿">宮内卿</persName></head>
+            <lb/><l n="6" resp="#宮内卿" xml:id="n6"><rs corresp="#宮内卿">
+                <phr corresp="#題1"><seg type="句">かりねする</seg>
+                <seg type="句">とこの柴かき</seg></phr>
+                <seg type="句">ひまをあらみ</seg>
+                <pb/><lb/><seg type="句">うちもあらはに</seg>
+                <seg type="句">さゆる<phr corresp="#題2">山かせ</phr></seg></rs></l></div></div>
+            <lb/><div type="判詞"><note target="#n5">左哥末句すくるあらしを枕にそ
+            <lb/>聞といへる心尤よろしく侍へし</note>
+                <lb/><note type="勝負" n="#左歌" target="#n5"><app><lem wit="#内" facs="#m01p005z02">よて</lem><rdg wit="#群"  facs="#m02p005z05"><ruby><rb>よて</rb><rt>仍</rt></ruby></rdg></app>為勝</note></div></div>
+        <lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>四番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左持<persName corresp="#藤原隆房">隆房</persName></head>
+            <lb/><l n="7" resp="#藤原隆房" xml:id="n7"><rs corresp="#藤原隆房">
+                <seg type="句">くれぬとて</seg>
+                <seg type="句">ふもとのさとに</seg>
+                <seg type="句"><phr corresp="#題1">宿かれは</phr></seg>
+            <lb/><seg type="句">宮こへかへす</seg>
+                <seg type="句"><phr corresp="#題2">山おろしのかせ</phr></seg></rs></l></div>
+            <pb/><div type="右歌"><head>
+                <lb style="text-indent:2em"/>右<persName corresp="#藤原兼宗">兼宗</persName></head>
+            <lb/><l n="8" resp="#藤原兼宗" xml:id="n8"><rs corresp="#藤原兼宗">
+                <seg type="句">吹まよふ</seg>
+                <seg type="句"><phr corresp="#題2">み山おろし</phr>の</seg>
+                <seg type="句">はけしさに</seg>
+                <lb/><seg type="句">夢路もしらぬ</seg>
+                <seg type="句"><phr corresp="#題1">たひね</phr>なりけり</seg></rs></l></div></div>
+            <lb/><div type="判詞"><note target="#n7">左上句はおかしく侍るを<app><lem wit="#内" facs="#m01p006z01">末句</lem><rdg wit="#群" facs="#m02p006z01">末の句</rdg></app>の
+            <lb/>みやこへかへすの詞あまりに
+            <lb/>たしかにや侍らん</note><note target="#n8">右哥末句は
+            <lb/>無為に侍をはけしさもすこ
+                <lb/>しいかゝとて</note><note type="勝負" n="0">持と<app><lem wit="#内" facs="#m01p006z02">申へくや</lem><rdg wit="#群" facs="#m02p006z02">可申や</rdg></app></note></div></div>
+        <pb/><lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>五番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左<persName corresp="#藤原公継">公継</persName></head>
+            <lb/><l n="9" resp="#藤原公継" xml:id="n9"><rs corresp="#藤原公継">
+                <seg type="句"><phr corresp="#題1">たひ寝</phr>する</seg>
+                <seg type="句">こゝろもかなし</seg>
+                <seg type="句"><phr corresp="#題2">あらし</phr>ふく</seg>
+            <lb/><seg type="句">野辺の草葉は</seg>
+                <seg type="句">むへし枯けり</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head>右勝<persName corresp="#源通具">通具</persName></head>
+            <lb/><l n="10" resp="#源通具" xml:id="n10"><rs corresp="#源通具">
+                <phr corresp="#題1"><seg type="句">草むすふ</seg>
+                <seg type="句">床たにあるゝ</seg></phr>
+                <seg type="句">ふゆかれの</seg>
+                <lb/><seg type="句"><phr corresp="#題2">あらし</phr>のそこに</seg>
+                <seg type="句">今夜かもねん</seg></rs></l></div></div>
+            <lb/><div type="判詞"><note target="#n9">左歌こゝろはいとおかしく侍るを
+                <pb/><lb/>かなしむへき<app><lem wit="#内" facs="#m01p007z01">とや</lem><rdg wit="#群" facs="#m02p006z03">ことや</rdg></app>餘に侍らむ</note>
+            <lb/><note target="#n10">右哥末句なとふるき姿よろ
+            <lb/>しく</note><note type="勝負" n="#右歌" target="#n10">侍にやまさるにや侍らん</note></div></div>
+        <lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>六番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左勝<persName corresp="#藤原経家">経家</persName></head>
+            <lb/><l n="11" resp="#藤原経家" xml:id="n11"><rs corresp="#藤原経家">
+                <seg type="句">さためなく</seg>
+                <seg type="句"><phr corresp="#題2">あらし</phr>にまよふ</seg>
+                <seg type="句">むらくもの</seg>
+            <lb/><seg type="句">そこともしらぬ</seg>
+                <seg type="句"><phr corresp="#題1">たひね</phr>をそする</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head>右<persName corresp="#静賢">静賢</persName></head>
+            <pb/><lb/><l n="12" resp="#静賢" xml:id="n12"><rs corresp="#静賢">
+                <seg type="句">ねかふ事</seg>
+                <seg type="句">みつの深山の</seg>
+                <seg type="句"><phr corresp="#題1">たひね</phr>とや</seg>
+                <pb/><lb/><seg type="句">嶺の<phr corresp="#題2"></phr><app><lem wit="#内" facs="#m01p007z02">あらしや</lem><rdg wit="#群" facs="#m02p007z01">あらしの</rdg></app></seg>
+                <seg type="句">おとろかすらん</seg></rs></l></div></div>
+            <lb/><div type="判詞"><note target="#n11">左嵐にまよふ村雲のなといへ
+            <lb/>るすかたよろしく侍にや</note><note type="勝負" n="#左歌" target="#n11"><app><lem wit="#内" facs="#m01p007z03">すみ
+                <lb/>しは</lem><rdg wit="#群" facs="#m02p007z02">少しは</rdg></app>まさり侍へし</note></div></div>
+        <lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>七番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左勝<persName corresp="#源通光">通光</persName></head>
+            <lb/><l n="13" resp="#源通光" xml:id="n13"><rs corresp="#源通光">
+                <phr corresp="#題1"><seg type="句">したねする</seg>
+                    <seg type="句">ならの<app><lem wit="#内" facs="#m01p007z04">かれ葉を</lem><rdg wit="#鶴" facs="#m02p007z03">枯葉</rdg></app></seg></phr>
+                <seg type="句"><app><lem wit="#内" facs="#m01p007z05">吹</lem><rdg wit="#群" facs="#m02p007z04">ふく</rdg></app><phr corresp="#題2">あらし</phr></seg>
+       <pb/><lb/><seg type="句">しらすやこれそ</seg>
+                <seg type="句">たのむ木のもと</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head>右<persName corresp="#越前">越前</persName></head>
+            <lb/><l n="14" resp="#越前" xml:id="n14"><rs corresp="#越前">
+                <seg type="句"><phr corresp="#題2">嵐</phr>ふく</seg>
+                <seg type="句">をかやかはらに</seg>
+                <seg type="句"><phr corresp="#題1">やとかりて</phr></seg>
+                <lb/><seg type="句">われさへものを</seg>
+                <seg type="句">おもひみたるゝ</seg></rs></l></div></div>
+            <lb/><div type="判詞"><note>右哥すこし秋の哥にや相似て
+            <lb/>侍らん</note><note target="#n13">左哥しらすやこれそ
+            <lb/>なといへる心すかたおかしくこ
+            <lb/>そ侍めれ</note><note type="勝負" n="#左歌" target="#n13">左まさるへくや
+            <pb/><lb/>侍らん</note></div></div>
+        <lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>八番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左持<persName corresp="#藤原惟方">寂信</persName></head>
+            <lb/><l n="15" resp="#藤原惟方" xml:id="n15"><rs corresp="#藤原惟方">
+                <seg type="句"><phr corresp="#題2">嵐</phr>ふく</seg>
+                <phr corresp="#題1"><seg type="句">ゐなのみなとに</seg>
+                <seg type="句">うきねして</seg></phr>
+            <lb/><seg type="句">いくたひゆめを</seg>
+                <seg type="句">むすひかぬらん</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head>右<persName corresp="#源師光">生蓮</persName></head>
+            <lb/><l n="16" resp="#源師光" xml:id="n16"><rs corresp="#源師光">
+                <seg type="句"><phr corresp="#題1">草まくら</phr></seg>
+                <seg type="句">はけしき峯の</seg>
+                <seg type="句"><phr corresp="#題2">あらし</phr>哉</seg>
+                <lb/><seg type="句"><app><lem wit="#内" facs="#m01p008z01">た<ruby><rb>え</rb><rt>へ歟</rt></ruby>ぬ</lem><rdg wit="#群" facs="#m02p007z05"><ruby><rb>絶</rb><rt>堪イ</rt></ruby>ぬ</rdg><rdg wit="#鶴">た<ruby><rb>え</rb><rt>へ歟</rt></ruby>ぬ</rdg></app>けしきに</seg>
+                <seg type="句">ましら鳴声</seg></rs></l></div></div>
+            <pb/><lb/><div type="判詞"><note target="#n15">左哥末句なとよろしくき
+            <lb/>こえ侍るをゐなのみなとやことに
+                <lb/>寄所なく侍らん</note><note target="#n16"><app><lem wit="#内" facs="#m01p009z01">右哥の</lem><rdg wit="#群"  facs="#m02p007z06">右の哥</rdg></app>ま
+            <lb/>しらは彼 五夜之哀猿叫月
+            <lb/>なとつくれるはいみしく侍れ
+            <lb/>と哥にはしゐてこのみよむへ
+            <lb/>き事には侍らぬにや</note><note type="勝負" n="0">左右な
+            <lb/>すらへて持と申へくや</note></div></div>
+        <pb/><div type="番"><div type="左右歌"><lb style="text-indent:1em"/><head>九番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左<persName corresp="#藤原俊成">釈阿</persName></head>
+            <lb/><l n="17" resp="#藤原俊成" xml:id="n17"><rs corresp="#藤原俊成">
+                <seg type="句">山路ゆく</seg>
+                <seg type="句"><phr corresp="#題1">かりのいほり</phr>を</seg>
+                <seg type="句">とふ<phr corresp="#題2">あらし</phr></seg>
+            <lb/><seg type="句"><app><lem wit="#内" facs="#m01p009z02">なきをそ</lem><rdg wit="#群" facs="#m02p008z01">なれをそ</rdg></app>たのむ</seg>
+                <seg type="句">たひの友とは</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head>右勝<persName corresp="#中納言">中納言</persName></head>
+            <lb/><l n="18" resp="#中納言" xml:id="n18"><rs corresp="#中納言">
+                <seg type="句">おとろかす</seg>
+                <seg type="句">関のとたちの</seg>
+                <seg type="句"><phr corresp="#題2">あらし</phr>かな</seg>
+                <lb/><seg type="句">ゆめもむすはぬ</seg>
+                <seg type="句"><phr corresp="#題1">旅の</phr><app><lem wit="#内" facs="#m01p009z03">まろねは</lem><rdg wit="#群" facs="#m02p008z02">まろねを</rdg><rdg wit="#鶴">まろねを</rdg></app></seg></rs></l></div></div>
+            <lb/><div type="判詞"><note target="#n18">右哥関のとたちそかりはの
+                <pb/><lb/><app><lem wit="#内" facs="#m01p010z01">小野</lem><rdg wit="#群" facs="#m02p008z03"><ruby><rb>小の</rb><rt>本ノ</rt></ruby></rdg></app>なとにやとおほつかなく侍
+            <lb/>れと</note><note target="#n17">左哥なれをそなといへ
+            <lb/>るよろしからす</note><note type="勝負" n="#右歌" target="#n18">右勝にてや
+                <lb/><app><lem wit="#内" facs="#m01p010z02">侍なん</lem><rdg wit="#群" facs="#m02p008z04">侍らなん</rdg></app></note></div></div>
+        <lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>十番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左勝<persName corresp="#俊成卿女">俊成卿女</persName></head>
+            <lb/><l n="19" resp="#俊成卿女" xml:id="n19"><rs corresp="#俊成卿女">
+                <seg type="句">まとろまぬ</seg>
+                <seg type="句">うつゝともなき</seg>
+                <seg type="句"><phr corresp="#題1">旅ね</phr>して</seg>
+            <lb/><seg type="句"><phr corresp="#題2">あらし</phr>にたゆる</seg>
+                <seg type="句">ふるさとの夢</seg></rs></l></div>
+            <pb style="text-indent:2em"/><div type="右歌"><lb/><head>右<persName corresp="#藤原定長">寂蓮</persName></head>
+            <lb/><l n="20" resp="#藤原定長" xml:id="n20"><rs corresp="#藤原定長">
+                <phr corresp="#題1"><seg type="句">面かけは</seg>
+                <seg type="句">みやこなからの</seg>
+                <seg type="句">うたゝねに</seg></phr>
+            <lb/><phr corresp="#題2"><seg type="句">まつかせそふく</seg>
+                <seg type="句">さやの中山</seg></phr></rs></l></div>
+            <lb/><div type="判詞"><note target="#n19">左歌心すかたよろしく侍に
+            <lb/>や</note><note target="#n20">右哥たゝ嵐とそあらまほ
+            <lb/>しく侍を松風そ吹さやの中
+            <lb/>山といへるしゐて傍題の松<app><lem wit="#内" facs="#m01p010z04">さ
+            <lb/>らて</lem><rdg wit="#群" facs="#m02p009z01">さして</rdg></app>もや侍へからん</note><note type="勝負" n="#左歌" target="#n19">よりて左
+            <pb/><lb/>勝へきにや侍らん</note></div></div></div>
+        <lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>十一番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左勝<app><lem wit="#内" facs="#m01p011z01"><persName corresp="#藤原隆信">隆信</persName></lem><rdg wit="#群" facs="#m02p009z02">ナシ</rdg></app></head>
+            <lb/><l n="21" resp="#藤原隆信" xml:id="n21"><rs corresp="#藤原隆信">
+                <phr corresp="#題1"><seg type="句">草むすふ</seg>
+                <seg type="句">とこはよな／＼</seg></phr>
+                <seg type="句">かはれとも</seg>
+            <lb/><seg type="句">かはらぬ嶺の</seg>
+                <seg type="句"><phr corresp="#題2">あらし</phr>をそきく</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head>右<app><lem wit="#内" facs="#m01p011z02"><persName corresp="#藤原保季">保季</persName></lem><rdg wit="#群" facs="#m02p009z03">ナシ</rdg></app></head>
+            <lb/><l n="22" resp="#藤原保季" xml:id="n22"><rs corresp="#藤原保季">
+                <seg type="句">露ふれし</seg>
+                <seg type="句">あきはむかしの</seg>
+                <seg type="句"><phr corresp="#題1">草まくら</phr></seg>
+                <lb/><seg type="句"><phr corresp="#題2">あらし</phr>に<app><lem wit="#内" facs="#m01p011z03">た<ruby><rb>え</rb><rt>へ歟</rt></ruby>ぬ</lem><rdg wit="#群" facs="#m02p009z04">たえぬ</rdg><rdg wit="#鶴">たえぬ</rdg></app></seg>
+                <seg type="句">なみたはかりそ</seg></rs></l></div></div>
+            <pb/><lb/><div type="判詞"><note target="#n21">左歌かはらぬ嶺のあらしをそ
+                <lb/>きくよろしく<app><lem wit="#内" facs="#m01p011z04">きこえ</lem><rdg wit="#群" facs="#m02p009z05">聞えて</rdg></app>侍り</note>
+            <lb/><note target="#n22">右哥姿はいと優に侍をあきは
+            <lb/>むかしのといへるや餘にやさし
+            <lb/>く聞え侍らん</note><note type="勝負" n="#左歌" target="#n21">左まさるへくや</note></div></div>
+        <lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>十二番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左勝<persName corresp="#藤原有家">有家</persName></head>
+            <pb/><lb/><l n="23" resp="#藤原有家" xml:id="n23"><rs corresp="#藤原有家">
+                <phr corresp="#題1"><seg type="句">岩かねの</seg>
+                <seg type="句">床に<phr corresp="#題2">あらし</phr>を</seg>
+                <seg type="句">かたしきて</seg></phr>
+            <pb/><lb/><seg type="句">ひとりやねなん</seg>
+                <seg type="句">さ夜の中山</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head>右<persName corresp="#鴨長明">長明</persName></head>
+            <lb/><l n="24" resp="#鴨長明" xml:id="n24"><rs corresp="#鴨長明">
+                <phr corresp="#題1"><seg type="句">苔むしろ</seg>
+                <seg type="句">雲にかさぬる</seg>
+                <seg type="句">夜半の袖</seg></phr>
+                <lb/><seg type="句">ぬきわかるゝは</seg>
+                <phr corresp="#題2"><seg type="句">みねの松かせ</seg></phr></rs></l></div></div>
+            <lb/><div type="判詞"><note type="勝負" n="#左歌" target="#n23">左ひとりやねなん<app><lem wit="#内" facs="#m01p012z01">さよの</lem><rdg wit="#群" facs="#m02p009z06">さやの</rdg><rdg wit="#鶴">さ夜の</rdg></app>中山
+            <lb/>といへるよろしく聞え侍へし</note></div></div>
+        <lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>十三番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左勝<persName corresp="#藤原定家">定家</persName></head>
+            <pb/><lb/><l n="25" resp="#藤原定家" xml:id="n25"><rs corresp="#藤原定家">
+                <seg type="句">古郷に</seg>
+                <seg type="句">さらはふきこせ</seg>
+                <seg type="句">嶺の<phr corresp="#題2">あらし</phr></seg>
+            <lb/><seg type="句"><phr corresp="#題1">かりねの山</phr>の</seg>
+                <seg type="句">ゆめはさめぬと</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head>右<persName corresp="#藤原雅経">雅経</persName></head>
+            <lb/><l n="26" resp="#藤原雅経" xml:id="n26"><rs corresp="#藤原雅経">
+                <seg type="句">あつまちや</seg>
+                <seg type="句"><app><lem wit="#内" facs="#m01p012z02">さよの</lem><rdg wit="#群" facs="#m02p010z01">さやの</rdg></app>中山</seg>
+                <seg type="句">夢ちたえ</seg>
+                <lb/><seg type="句"><phr corresp="#題1">雲にふす夜</phr>を</seg>
+                <seg type="句">とふ<phr corresp="#題2">嵐</phr>かな</seg></rs></l></div></div>
+            <lb/><div type="判詞"><note target="#n26">右哥<app><lem wit="#内" facs="#m01p012z03">さよの</lem><rdg wit="#群" facs="#m02p010z02">さやの</rdg></app>中山夢路たえなと
+            <lb/>いへるすかたおかしく侍れと</note>
+                <lb/><note type="勝負" n="#左歌" target="#n25">左哥さらは吹こせみねの嵐
+            <pb/><lb/>といへるなをよろしかるへくや
+            <lb/>侍らん</note></div></div>
+        <lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>十四番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左勝<persName corresp="#源具親">具親</persName></head>
+            <lb/><l n="27" resp="#源具親" xml:id="n27"><rs corresp="#源具親">
+                <seg type="句"><phr corresp="#題1">くさまくら</phr></seg>
+                <seg type="句">をのれはかりの</seg>
+                <seg type="句">なき名<app><lem wit="#内" facs="#m01p013z01">にて</lem><rdg wit="#群" facs="#m02p010z03">まて</rdg></app></seg>
+            <lb/><seg type="句">結はぬゆめに</seg>
+                <seg type="句"><phr corresp="#題2">あらし</phr>吹なり</seg></rs></l></div>
+            <lb style="text-indent:2em"/><div type="右歌"><head>右<persName corresp="#道清">道清</persName></head>
+            <lb/><l n="28" resp="#道清" xml:id="n28"><rs corresp="#道清">
+                <phr corresp="#題1"><seg type="句">かやまくら</seg>
+                <seg type="句">かりそめふしの</seg></phr>
+                <seg type="句">さびしきに</seg>
+                <pb/><lb/><seg type="句">夜半の<phr corresp="#題2">あらし</phr>そ</seg>
+                <seg type="句">友となりける</seg></rs></l></div></div>
+            <lb/><div type="判詞"><note target="#n28">右のかや枕無為には侍るを</note><note target="#n27" type="勝負" n="#左歌">左の
+            <lb/>むすはぬゆめにといへるおかしく
+            <lb/>見え侍にや</note></div></div>
+        <lb style="text-indent:1em"/><div type="番"><div type="左右歌"><head>十五番</head>
+            <lb style="text-indent:2em"/><div type="左歌"><head>左勝<persName corresp="#源家長">家長</persName></head>
+            <lb/><l n="29" resp="#源家長" xml:id="n29"><rs corresp="#源家長">
+                <phr corresp="#題1"><seg type="句">あけは又</seg>
+                <seg type="句">いなはの山の</seg></phr>
+                <seg type="句">みねにふく</seg>
+            <lb/><seg type="句">松の<phr corresp="#題2">あらし</phr>そ</seg>
+                <seg type="句">名残なるへき</seg></rs></l></div>
+            <pb/><div type="右歌">
+                <lb style="text-indent:2em"/><head>右<persName corresp="#藤原秀能">秀能</persName></head>
+            <lb/><l n="30" resp="#藤原秀能" xml:id="n30"><rs corresp="#藤原秀能">
+                <seg type="句">たかまとの</seg>
+                <phr corresp="#題1"><seg type="句">野路のしのはら</seg>
+                <seg type="句">行くらし</seg>
+                <lb/><seg type="句">かたしく袖に</seg></phr>
+                <seg type="句"><phr corresp="#題2">あらし</phr>おつなり</seg></rs></l></div></div>
+            <lb/><div type="判詞"><note target="#n29" type="勝負" n="#左歌">左哥かの古今の哥に立別れ
+            <lb/>いなはの山の嶺におふるといへる
+            <lb/>をあけは又いなはの山のみねに
+            <lb/><app><lem wit="#内" facs="#m01p014z01">ふく</lem><rdg wit="#鶴"><ruby><rb>ふく</rb><rt>おふる</rt></ruby></rdg></app>といへる心よろしく侍り
+                <lb/>まさると申へし</note></div></div>
+    </body>
+    <back>
+        <listPerson>
+            <person xml:id="後鳥羽院" sex="1" age="22">
+                <persName type="隠名">女房</persName>
+                <persName type="諡号">後鳥羽院</persName>
+                <persName type="名">尊成</persName>
+                <persName type="法名">良然</persName>
+                <persName type="諡号">顕徳院</persName>
+                <occupation>上皇</occupation>
+                <birth when="1180">治承4年</birth>
+                <death when="1239">延応元年</death>
+                <idno type="VIAF">http://viaf.org/viaf/48189404</idno>
+            </person>
+            <person xml:id="藤原忠良" sex="1" age="38">
+                <persName>忠良</persName>
+                <persName>藤原忠良</persName>
+                <occupation>正二位権大納言</occupation>
+                <birth when="1164">長寛2年</birth>
+                <death when="1225">嘉禄元年</death>
+                <idno type="VIAF">http://viaf.org/viaf/259238972</idno>
+            </person>
+            <person xml:id="源通親" sex="1" age="53">
+                <persName>内大臣</persName>
+                <persName>源通親</persName>
+                <occupation>従三位内大臣</occupation>
+                <birth when="1149">久安5年</birth>
+                <death when="1202">建仁2年</death>
+                <idno type="VIAF">http://viaf.org/viaf/29116898</idno>
+            </person>
+            <person xml:id="小侍従" sex="2" age="80?">
+                <persName>小侍従</persName>
+                <persName>紀光清女</persName>
+                <birth></birth>
+                <death></death>
+                <idno type="VIAF">http://viaf.org/viaf/186988708</idno>
+            </person>
+            <person xml:id="慈円" sex="1" age="47">
+                <persName type="法名">慈円</persName>
+                <persName type="法名">道快</persName>
+                <persName type="諡号">慈鎮</persName>
+                <persName>吉水僧正</persName>
+                <occupation>天台座主、前権僧正</occupation>
+                <birth when="1155">久寿2年</birth>
+                <death when="1225">嘉禄元年</death>
+                <idno type="VIAF">http://viaf.org/viaf/46892904</idno>
+            </person>
+            <person xml:id="宮内卿" sex="2" age="unknown">
+                <persName>宮内卿</persName>
+                <persName>源師光女</persName>
+                <occupation>女房</occupation>
+                <birth></birth>
+                <death></death>
+                <idno type="VIAF">http://viaf.org/viaf/252022972</idno>
+            </person>
+            <person xml:id="藤原隆房" sex="1" age="54">
+                <persName>隆房</persName>
+                <persName>藤原隆房</persName>
+                <occupation>正二位前中納言</occupation>
+                <birth when="1148">久安4年</birth>
+                <death when="1209">承元3年</death>
+                <idno type="VIAF">http://viaf.org/viaf/67757098</idno>
+            </person>
+            <person xml:id="藤原兼宗" sex="1" age="39">
+                <persName>兼宗</persName>
+                <persName>藤原兼宗</persName>
+                <occupation>従二位権中納言</occupation>
+                <birth when="1163">長寛元年</birth>
+                <death when="1242">仁治3年</death>
+                <idno type="VIAF"></idno>
+            </person>
+            <person xml:id="藤原公継" sex="1" age="27">
+                <persName>公継</persName>
+                <persName>藤原公継</persName>
+                <occupation>従二位権中納言</occupation>
+                <birth when="1175">安元元年</birth>
+                <death when="1227">嘉禄3年</death>
+                <idno type="VIAF">http://viaf.org/viaf/18152986653212671199</idno>
+            </person>
+            <person xml:id="源通具" sex="1" age="31">
+                <persName>通具</persName>
+                <persName>源通具</persName>
+                <occupation>参議従四位上左中将</occupation>
+                <birth when="1171">承安元年</birth>
+                <death when="1227">嘉禄3年</death>
+                <idno type="VIAF">http://viaf.org/viaf/2776305</idno>
+            </person>
+            <person xml:id="藤原経家" sex="1" age="53">
+                <persName>経家</persName>
+                <persName>藤原経家</persName>
+                <occupation>散位正三位</occupation>
+                <birth when="1149">久安5年</birth>
+                <death when="1209">承元3年</death>
+                <idno type="VIAF"></idno>
+            </person>
+            <person xml:id="静賢" sex="1" age="73">
+                <persName>静賢</persName>
+                <persName>藤原通憲男</persName>
+                <occupation></occupation>
+                <birth when="1124">天治元年</birth>
+                <death></death>
+                <idno type="VIAF"></idno>
+            </person>
+            <person xml:id="源通光" sex="1" age="15">
+                <persName>通光</persName>
+                <persName>源通光</persName>
+                <occupation>従三位右中将</occupation>
+                <birth when="1187">文治3年</birth>
+                <death when="1248">宝治3年</death>
+                <idno type="VIAF">http://viaf.org/viaf/35153953294205562651</idno>
+            </person>
+            <person xml:id="越前" sex="2" age="unknown">
+                <persName>越前</persName>
+                <persName></persName>
+                <occupation>女房</occupation>
+                <birth></birth>
+                <death></death>
+                <idno type="VIAF"></idno>
+            </person>
+            <person xml:id="藤原惟方" sex="1" age="77">
+                <persName>寂信</persName>
+                <persName>藤原惟方</persName>
+                <occupation></occupation>
+                <birth when="1125">天治2年</birth>
+                <death></death>
+                <idno type="VIAF">http://viaf.org/viaf/22152930855809670483</idno>
+            </person>
+            <person xml:id="源師光" sex="1" age="70?">
+                <persName>生蓮</persName>
+                <persName>源師光</persName>
+                <occupation></occupation>
+                <birth></birth>
+                <death></death>
+                <idno type="VIAF">http://viaf.org/viaf/120460091</idno>
+            </person>
+            <person xml:id="藤原俊成" sex="1" age="88">
+                <persName>釈阿</persName>
+                <persName>藤原俊成</persName>
+                <occupation></occupation>
+                <birth when="1114">永久2年</birth>
+                <death when="1204">元久元年</death>
+                <idno type="VIAF">http://viaf.org/viaf/37223665</idno>
+            </person>
+            <person xml:id="中納言" sex="2" age="45">
+                <persName>中納言</persName>
+                <persName>建春門院中納言</persName>
+                <persName>健御前</persName>
+                <occupation>女房</occupation>
+                <birth when="1157">保元2年</birth>
+                <death when="1219">建保7年</death>
+                <idno type="VIAF">http://viaf.org/viaf/255077024</idno>
+            </person>
+            <person xml:id="俊成卿女" sex="2" age="30?">
+                <persName>俊成卿女</persName>
+                <persName>藤原盛頼女</persName>
+                <occupation>女房</occupation>
+                <birth when="1171">承安元年ころ</birth>
+                <death></death>
+                <idno type="VIAF">http://viaf.org/viaf/24191666</idno>
+            </person>
+            <person xml:id="藤原定長" sex="1" age="unknown">
+                <persName>寂蓮</persName>
+                <persName>藤原定長</persName>
+                <occupation></occupation>
+                <birth when="1139">保延5年ころ</birth>
+                <death></death>
+                <idno type="VIAF">http://viaf.org/viaf/60486291</idno>
+            </person>
+            <person xml:id="藤原隆信" sex="1" age="60">
+                <persName>隆信</persName>
+                <persName>藤原隆信</persName>
+                <occupation>散位正四位下</occupation>
+                <birth when="1142">康治元年</birth>
+                <death when="1205">元久2年</death>
+                <idno type="VIAF">http://viaf.org/viaf/63099323</idno>
+            </person>
+            <person xml:id="藤原保季" sex="1" age="31">
+                <persName>保季</persName>
+                <persName>藤原保季</persName>
+                <occupation>散位従四位上</occupation>
+                <birth when="1171">承安元年</birth>
+                <death></death>
+                <idno type="VIAF"></idno>
+            </person>
+            <person xml:id="藤原有家" sex="1" age="47">
+                <persName>有家</persName>
+                <persName>藤原有家</persName>
+                <occupation>散位正四位下</occupation>
+                <birth when="1155">久寿2年</birth>
+                <death when="1216">建保4年</death>
+                <idno type="VIAF">http://viaf.org/viaf/255619539</idno>
+            </person>
+            <person xml:id="鴨長明" sex="1" age="unknown">
+                <persName>長明</persName>
+                <persName>鴨長明</persName>
+                <occupation></occupation>
+                <birth when="1155">久寿2年ころ</birth>
+                <death when="1216">建保4年</death>
+                <idno type="VIAF">http://viaf.org/viaf/79054625</idno>
+            </person>
+            <person xml:id="藤原定家" sex="1" age="40">
+                <persName>定家</persName>
+                <persName>藤原定家</persName>
+                <occupation>正四位下左近権少将・安芸権介</occupation>
+                <birth when="1162">応保2年</birth>
+                <death when="1241">仁治2年</death>
+                <idno type="VIAF">http://viaf.org/viaf/29592327</idno>
+            </person>
+            <person xml:id="藤原雅経" sex="1" age="32">
+                <persName>雅経</persName>
+                <persName>藤原雅経</persName>
+                <occupation>従五位上左近権少将・越前介</occupation>
+                <birth when="1170">嘉応2年</birth>
+                <death when="1221">承久3年</death>
+                <idno type="VIAF">http://viaf.org/viaf/225430836</idno>
+            </person>
+            <person xml:id="源具親" sex="1" age="unknown">
+                <persName>具親</persName>
+                <persName>源具親</persName>
+                <occupation>従五位下左兵衛佐</occupation>
+                <birth></birth>
+                <death></death>
+                <idno type="VIAF"></idno>
+            </person>
+            <person xml:id="道清" sex="1" age="unknown">
+                <persName>道清</persName>
+                <persName></persName>
+                <occupation></occupation>
+                <birth></birth>
+                <death></death>
+                <idno type="VIAF"></idno>
+            </person>
+            <person xml:id="源家長" sex="1" age="unknown">
+                <persName>家長</persName>
+                <persName>源家長</persName>
+                <occupation>従五位下右馬助</occupation>
+                <birth when="1234">文暦元年</birth>
+                <death></death>
+                <idno type="VIAF">http://viaf.org/viaf/314808617</idno>
+            </person>
+            <person xml:id="藤原秀能" sex="1" age="18">
+                <persName>秀能</persName>
+                <persName>藤原秀能</persName>
+                <occupation></occupation>
+                <birth when="1184">元暦元年</birth>
+                <death when="1240">仁治元年</death>
+                <idno type="VIAF">http://viaf.org/viaf/233320389</idno>
+            </person>
+        </listPerson>
+    </back>
+    </text>
+</TEI>

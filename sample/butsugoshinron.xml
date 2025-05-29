@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>仏語心論</title>
+                <author>虎関師錬</author>
+                <respStmt>
+                    <resp>TEI Encoding</resp>
+                    <persName xml:id="ysakuma">佐久間祐惟</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI Consulting</resp>
+                    <persName>Kiyonori Nagasaki</persName>
+                </respStmt>
+                </titleStmt>
+            <publicationStmt>
+                <publisher>
+                </publisher>
+             </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>仏語心論</title>
+                    <author sameAs="#虎関師錬">虎関師錬</author>
+                    <date>1920</date>
+                    <series>
+                        <title type="main">日本大蔵経</title>
+                        <biblScope unit="部">方等部章疏三</biblScope>
+                        <biblScope unit="volume">10</biblScope>
+                    </series>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="double-end-point" location="external"/>            
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body style="writing-mode vertical-rl">
+            <div1>
+          
+        <lb n="ND10,0252a09"/><ab type="fascicle_beginning">佛語心論巻之四
+        <lb n="ND10,0252a10"/>景陽沙門 師錬 述</ab>
+        <div2 type="body" subtype="復問答第十之一"><p><lb n="ND10,0252a11"/>
+            <title type="desc">復問答第十之一</title></p>
+          <div3 type="body" subtype="説識異外分第一"><p><lb n="ND10,0252a12"/>
+              <title type="desc">説識異外分第一</title></p>
+            <div4 type="body" subtype="経文" xml:id="BS04_01"><p><lb n="ND10,0252a13"/><quote source="T0670_.16.0483a10-T0670_.16.0483a11">
+                <seg type="sutra" xml:id="mondo01.01">爾時大慧菩薩摩訶薩復白佛言</seg>
+                <seg type="sutra" xml:id="mondo01.02">世尊</seg>
+                <seg type="sutra" xml:id="mondo01.03">諸識有幾種<lb n="ND10,0252a14"/>生往滅。</seg></quote></p>
+            </div4>
+            <div4 type="body" subtype="注釈">
+                <div5 type="body" subtype="承趣">
+                    <p><lb n="ND10,0252a15"/><title type="desc">承趣</title>。偈問始云<quote source="T0670_.16.0480b20">云何淨其念云何念増長</quote>。淨念八
+                        <lb n="ND10,0252a16"/>識。増念六識。百八句始<quote source="T0670_.16.0482b28">不生句生句</quote>生六識邊。不
+                        <lb n="ND10,0252a17"/>生八識。故復分始即問諸識。</p>
+                </div5>
+                <div5 type="body" subtype="偈合"><p><title type="desc">偈合</title>。<quote source="T0670_.16.0480c08">云何名為藏云<lb n="ND10,0252b01"/>何及意識也</quote>。</p></div5>
+                <div5 type="body" subtype="格箋">
+                    <p><title type="desc">格箋</title>。爾至言<seg type="kakusen" corresp="#mondo01.01">起詞</seg>。世尊二字<seg type="kakusen" corresp="#mondo01.02">稱啓</seg>。諸
+                        <lb n="ND10,0252b02"/>至滅<seg type="kakusen" corresp="#mondo01.03">擧啓</seg>。</p>
+                </div5>
+                <div5 type="body" subtype="平箋">
+                    <p><title type="desc">平箋</title>。説異二重之一以下數目皆見分<lb n="ND10,0252b03"/>題。總大科第二之六之一以下同科。次不重擧。別<lb n="ND10,0252b04"/>大科第三之一以下同科。亦不重出。次序數目亦<lb n="ND10,0252b05"/>自見題。
+                    <seg type="hyosen" corresp="#mondo01.01">起段。結集家置。爾時及復解皆見上。</seg>
+                    <seg type="hyosen" corresp="#mondo01.03">擧段<lb n="ND10,0252b06"/>如文。</seg></p>
+                </div5>
+            </div4>
+            <div4 type="body" subtype="経文" xml:id="BS04_02"><lb n="ND10,0252b07"/><p><quote source="T0670_.16.0483a11-T0670_.16.0483a15">
+                <seg type="sutra" xml:id="mondo01.04">佛告大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.05">諸識有二種生住滅。非思量所知。</seg>
+                <seg type="sutra" xml:id="mondo01.06">諸識有<lb n="ND10,0252b08"/>二種生。謂流注生及相生。有二種住。謂流注住及相<lb n="ND10,0252b09"/>住。有二種滅。謂流注滅及相滅。</seg>
+                <seg type="sutra" xml:id="mondo01.07">大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.08">諸識有三種相。</seg><lb n="ND10,0252b10"/>
+                <seg type="sutra" xml:id="mondo01.09">謂<seg type="word" xml:id="mondo01.09_w01">轉相</seg>。<seg type="word" xml:id="mondo01.09_w02">業相</seg>。<seg type="word" xml:id="mondo01.09_w03">眞相</seg>。</seg></quote></p>
+            </div4>
+            <div4 type="body" subtype="注釈"><lb n="ND10,0252b11"/>
+                <div5 type="body" subtype="格箋"><p>
+                    <title type="desc">格箋</title>。佛至慧<seg type="kakusen" corresp="#mondo01.04">起詞</seg>。以下効此。
+                    諸至知<seg type="kakusen" corresp="#mondo01.05">建説</seg>。諸至滅
+                    <lb n="ND10,0252b12"/><seg type="kakusen" corresp="#mondo01.06">名説</seg>。大慧<seg type="kakusen" corresp="#mondo01.07">稱説</seg>。以下効此。諸至相<seg type="kakusen" corresp="#mondo01.08">數説</seg>。謂至相<seg type="kakusen" corresp="#mondo01.09">名
+                    <lb n="ND10,0252b13"/>説</seg>。</p>
+                </div5>
+                <div5 type="body" subtype="平箋">
+                    <p><title type="desc">平箋</title>。
+                    <seg type="hyosen" corresp="#mondo01.05">建段。諸識三相微細難辨。非是妄想心量<lb n="ND10,0252b14"/>所知。只無漏智所照觀也。</seg>
+                    <seg type="hyosen" corresp="#mondo01.06">名段。言流注者諸識<lb n="ND10,0252b15"/>造業生滅相續不断如流。相云業果。生住滅者下章<lb n="ND10,0252b16"/>備説。蓋第八識心境微陰相續之相不可得見。故<lb n="ND10,0252b17"/>云流注。七識以下心境麁顯。故云相也。</seg>
+                    <seg type="hyosen" corresp="#mondo01.08 #mondo01.09">數名段。此
+                        <lb n="ND10,0253a01"/>段横説。言八種識各具三相。故爲横義。謂<seg type="gloss" xml:id="mondo01.09_w01_gloss" sameAs="#mondo01.09_w01">轉相</seg>者。
+                        <lb n="ND10,0253a02"/><seg type="explanationOf" corresp="#mondo01.09_w01_gloss">眞識體相受無明熏。轉變染汚。</seg>謂<seg type="gloss" xml:id="mondo01.09_w02_gloss" sameAs="#mondo01.09_w02">業相</seg>者<seg type="explanationOf" corresp="#mondo01.09_w02_gloss">眞識體
+                        <lb n="ND10,0253a03"/>相元具染淨。具染淨故發起業因。</seg>謂<seg type="gloss" xml:id="mondo01.09_w03_gloss" sameAs="#mondo01.09_w03">眞相</seg>者<seg type="explanationOf" corresp="#mondo01.09_w03_gloss">眞識
+                        <lb n="ND10,0253a04"/>體性本來清淨。眞常如如不容虚偽。</seg>若作竪配眞
+                        <lb n="ND10,0253a05"/>相八識。業七轉六。此横説段是經深旨。諸識各具
+                        <lb n="ND10,0253a06"/>轉業眞相。或凡或聖本無間隔。若於六識能見眞
+                        <lb n="ND10,0253a07"/>相即凡而佛。若於八識亦見轉相即佛而凡。凡聖
+                        <lb n="ND10,0253a08"/>融會眞妄合同。凡何厭哉。佛何求哉。只是業相自
+                        <lb n="ND10,0253a09"/>作上下。即此業相亦淨亦染。染淨不二。尚何言乎。</seg></p>
+                </div5>
+                <div5 type="body" subtype="智箋"><p><lb n="ND10,0253a10"/>
+                    <title type="desc">智箋</title><seg type="chisen" corresp="#BS04_02">法界</seg>。問。其義如何。答。諸識總有二種三相。猶<lb n="ND10,0253a11"/>如法界渾具之智。</p>
+                </div5>
+            </div4>
+            <div4 type="body" subtype="経文" xml:id="BS04_03"><p><lb n="ND10,0253a12"/><quote source="T0670_.16.0483a15-T0670_.16.0483a18">
+                <seg type="sutra" xml:id="mondo01.10">大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.11">略説有三種識。廣説有八相。</seg>
+                <seg type="sutra" xml:id="mondo01.12">何等爲三。</seg>
+                <seg type="sutra" xml:id="mondo01.13">謂<seg type="word" xml:id="mondo01.13_w01">眞識</seg><lb n="ND10,0253a13"/><seg type="word" xml:id="mondo01.13_w02">現識</seg>及<seg type="word" xml:id="mondo01.13_w03">分別事識</seg>。</seg>
+                <seg type="sutra" xml:id="mondo01.14">大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.15">譬如明鏡持諸色像。</seg>
+                <seg type="sutra" xml:id="mondo01.16">現識處<lb n="ND10,0253a14"/>現亦復如是。</seg></quote></p>
+            </div4>
+            <div4 type="body" subtype="注釈">
+                <div5 type="body" subtype="格箋"><p>
+        <lb n="ND10,0253a15"/>格箋。略至相<seg type="kakusen" corresp="#mondo01.11">數説</seg>。何至三<seg type="kakusen" corresp="#mondo01.12">問説</seg>。謂至識<seg type="kakusen" corresp="#mondo01.13">名説</seg>。譬至
+        <lb n="ND10,0253a16"/>像<seg type="kakusen" corresp="#mondo01.15">喩説</seg>。現至是<seg type="kakusen" corresp="#mondo01.16">合説</seg>。</p></div5>
+                <div5 type="body" subtype="平箋"><p><title type="desc">平箋</title>。以下竪説。凡諸章者大<lb n="ND10,0253a17"/>率竪説。間有横説。故云竪説。今此横次故出竪格。<lb n="ND10,0253b01"/>以下諸堅不必出格。
+                    <seg type="hyosen" corresp="#mondo01.13">名段。<seg type="gloss" xml:id="mondo01.13_w01_gloss" sameAs="#mondo01.13_w01">眞識</seg>者<seg type="explanationOf" corresp="#mondo01.13.01_gloss">云八識淨分</seg>。
+                        <seg type="gloss" xml:id="mondo01.13_w02_gloss" sameAs="#mondo01.13_w02">現<lb n="ND10,0253b02"/>識</seg>者<seg type="explanationOf" corresp="#mondo01.13_w02_gloss">云八識染分</seg>。
+                        <seg type="gloss" xml:id="mondo01.13_w03_gloss" sameAs="#mondo01.13.03">分別事識</seg><seg type="explanationOf" corresp="#mondo01.13_w03_gloss">云第六識</seg>。問。第八識上
+                        <lb n="ND10,0253b03"/>何有眞現二種名耶。答。八識淨分一切有情眞
+                        <lb n="ND10,0253b04"/>本性地純淨無垢。故云眞識。八識染分一切器生。
+                        <lb n="ND10,0253b05"/>所依總相含藏萬物。有而不有如鏡現像。故云現
+                        <lb n="ND10,0253b06"/>識。曰分別事何。曰分別心法。事者色法。色心二法。
+                        <lb n="ND10,0253b07"/>六識縱起。曰若以眞識爲第八識。現識即是應名
+                        <lb n="ND10,0253b08"/>七識。若以現識爲第八識。眞識即應爲第九識。何
+                        <lb n="ND10,0253b09"/>於第八分二種耶。曰此經旨趣直指現行。則爲眞
+                        <lb n="ND10,0253b10"/>性。不似餘經立伏斷而階位漸昇分九十識。故魏
+                        <lb n="ND10,0253b11"/>譯云。大慧。有八種識。略説二種。一者了別識。二
+                        <lb n="ND10,0253b12"/>者分別事識。唐譯本云。大慧。識廣説有八。略則唯二。
+                        <lb n="ND10,0253b13"/>謂現識及分別事識。三本皆言。廣説有八。不立九
+                        <lb n="ND10,0253b14"/>識者明也矣。故魏唐本只出二種。其二種者第八
+                        <lb n="ND10,0253b15"/>第六。而此宋本有三種者細明八識有染淨也。故
+                        <lb n="ND10,0253b16"/>下章云。轉識藏識眞相若異者藏識非因。校魏唐
+                        <lb n="ND10,0253b17"/>本只出二種。及此藏識眞相之文眞現二種爲一
+                        <lb n="ND10,0254a01"/>藏識分染淨也。若又現識爲第七識爲沒交捗。蓋
+                        <lb n="ND10,0254a02"/>第七識無有主宰。是以識家名傳送識。今此略説
+                        <lb n="ND10,0254a03"/>專出主本。是故七識不相干也。</seg>
+                    <seg type="hyosen" corresp="#mondo01.15">喩段。鏡持色像猶<lb n="ND10,0254a04"/>如八識受諸縁相。</seg>
+                    <seg type="hyosen" corresp="#mondo01.16">合段。現識處現猶言八識體處<lb n="ND10,0254a05"/>諸縁之相現也。</seg></p>
+                </div5>
+                <div5 type="body" subtype="智箋"><p><title type="desc">智箋</title><seg type="chisen" corresp="#BS04_03">圓鏡</seg>。問答。廣略諸相及現處相
+        <lb n="ND10,0254a06"/>即是如來鏡智之相。</p></div5>
+            </div4>
+            <div4 type="body" subtype="経文" xml:id="BS04_04"><p><lb n="ND10,0254a07"/><quote source="T0670_.16.0483a18-T0670_.16.0483a26">
+                <seg type="sutra" xml:id="mondo01.17">大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.18">現識及分別事識。此二壞不壞相展轉因。</seg>
+                <seg type="sutra" xml:id="mondo01.19">大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.20"><lb n="ND10,0254a08"/>
+                    <seg type="sutra1" xml:id="mondo01.20.01">不思議熏及不思議變是現識因。</seg>
+                    <seg type="sutra1" xml:id="mondo01.20.02">取種種塵。及無始<lb n="ND10,0254a09"/>妄想熏。是分別事識因。</seg>
+                </seg>            
+                <seg type="sutra" xml:id="mondo01.21">大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.22">若覆彼眞識種種不實。<lb n="ND10,0254a10"/>諸虚妄滅則一切根識滅。</seg>
+                <seg type="sutra" xml:id="mondo01.23">大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.24">是名相滅。</seg>
+                <seg type="sutra" xml:id="mondo01.25">大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.26">相續<lb n="ND10,0254a11"/>滅者。</seg>
+                <seg type="sutra" xml:id="mondo01.27">
+                    <seg type="sutra1" xml:id="mondo01.27.01">相續所因滅則相續滅。</seg>
+                    <seg type="sutra1" xml:id="mondo01.27.02">所從滅及所縁滅則相續<lb n="ND10,0254a12"/>滅。</seg>
+                </seg>
+                <seg type="sutra" xml:id="mondo01.28">大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.29">所以者何。是其所依故。</seg>
+                <seg type="sutra" xml:id="mondo01.30">
+                    <seg type="sutra1" xml:id="mondo01.30.01">依者謂無始妄想<lb n="ND10,0254a13"/>熏。</seg>
+                    <seg type="sutra1" xml:id="mondo01.30.02">縁者謂自心見等識境妄想。</seg>
+                </seg></quote></p>
+            </div4>
+            <div4 type="body" subtype="注釈">
+                <div5 type="body" subtype="格箋"><p><lb n="ND10,0254a14"/>
+                    <title type="desc">格箋。</title>現至因<seg corresp="#mondo01.18">建説</seg>。不至因<seg corresp="#mondo01.20">析説</seg>。若至滅<seg corresp="#mondo01.22">平説</seg>。是至
+                    <lb n="ND10,0254a15"/>滅<seg corresp="#mondo01.24">結説</seg>。相至者<seg corresp="#mondo01.26">擧説</seg>。相歪滅<seg corresp="#mondo01.27">析説</seg>。所至故<seg corresp="#mondo01.29">釋説</seg>。依
+                    <lb n="ND10,0254a16"/>至想<seg corresp="#mondo01.30">析説</seg>。</p>
+                </div5>
+                <div5 type="body" subtype="平箋"><p>
+                    <title type="desc">平箋</title>。大慧問諸識生住減。如來先出識
+                    <lb n="ND10,0254a17"/>諸體相。至此章説生滅二相。
+                    <seg type="hyosen" corresp="#mondo01.18 #mondo01.20">建析二段爲生相也。</seg><lb n="ND10,0254b01"/>
+                    <seg type="hyosen" corresp="#mondo01.22 #mondo01.24 #mondo01.25 #mondo01.27 #mondo01.29 #mondo01.30">平段以下爲滅相也。</seg>
+                    <seg type="hyosen" corresp="#mondo01.18">生相建段。八六二識各有壞<lb n="ND10,0254b02"/>相及不壞相。亦復展轉互爲生因。壞不壞者第八
+                        <lb n="ND10,0254b03"/>染分轉動起作三細六麁。妄迷不反。第六諸根馳
+                        <lb n="ND10,0254b04"/>騁塵境。是爲壞相。第八淨分本來無垢。三世常住
+                        <lb n="ND10,0254b05"/>無有變易。第六諸塵習氣不斷。或遇諸境即能興
+                        <lb n="ND10,0254b06"/>起。是爲不壞。轉業二相亦名爲壞。眞相一相名
+                        <lb n="ND10,0254b07"/>爲不壞。展轉因者。八識動轉漸生六識。六識習氣長
+                        <lb n="ND10,0254b08"/>義八識。</seg>
+                    <seg type="hyosen" corresp="#mondo01.20">析段二種。一<seg type="hyosen1_name" corresp="#mondo01.20.01">八識</seg>。二<seg type="hyosen1_name" corresp="#mondo01.20.02">六識</seg>。不至因一也。取<lb n="ND10,0254b09"/>至因二也。
+                        <seg type="hyosen1" corresp="#mondo01.20.01">八種。如來藏識本性清淨。忽然而受無<lb n="ND10,0254b10"/>明染熏。云不思議。熏云染汚。變云三細。因熏變故<lb n="ND10,0254b11"/>現識生起。</seg>
+                        <seg type="hyosen1" corresp="#mondo01.20.02">六種。種種塵者五塵境相。無始妄熏久<lb n="ND10,0254b12"/>遠習氣。塵習取熏六識生因。滅相二種。一相滅。二<lb n="ND10,0254b13"/>流滅。</seg>
+                    </seg>
+                    <seg type="hyosen" corresp="#mondo01.22 #mondo01.24">平結二段是爲相滅。</seg>
+                    <seg type="hyosen" corresp="#mondo01.25 #mondo01.27 #mondo01.29">擧段以下是爲流滅。</seg>
+                    <seg type="hyosen" corresp="#mondo01.22">平<lb n="ND10,0254b14"/>段。覆猶復也。言修學人若廻六識歸復八識。熏變
+                        <lb n="ND10,0254b15"/>塵想種種虚妄皆悉滅盡。諸妄滅故六根六識一
+                        <lb n="ND10,0254b16"/>切皆滅。根識有相故云相滅。大慧滅問至此答成。
+                        <lb n="ND10,0254b17"/>問。何説生滅不在住乎。答。纔有生法住法隨之。故
+                        <lb n="ND10,0255a01"/>只説生不言住也。今此覆字是當學者加意之所。
+                        <lb n="ND10,0255a02"/>所謂禪門回光返照。此覆之字其椎輪乎。</seg>
+                    <seg type="hyosen" corresp="#mondo01.27">析段二<lb n="ND10,0255a03"/>種。一<seg type="hyosen1_name" corresp="#mondo01.27.01">因</seg>二<seg type="hyosen1_name" corresp="mondo#10_01_27_02">縁</seg>。相至滅一也。所至滅二也。
+                        <seg type="hyosen1" corresp="mondo01.27.01">因種。相續<lb n="ND10,0255a04"/>流注。</seg>
+                        <seg type="hyosen1" corresp="mondo01.27.02">縁種。所從者是上所因也。因縁二種詳下析<lb n="ND10,0255a05"/>種。此段所因所從所依一法互文。</seg>
+                    </seg>
+                    <seg type="hyosen" corresp="#mondo01.29">釋段。其所依者<lb n="ND10,0255a06"/>猶言諸識所依因也。言諸識生依二熏也。二熏因<lb n="ND10,0255a07"/>滅流注即滅。蓋其因故。</seg>
+                    <seg type="hyosen" corresp="#mondo01.30">析段二種。一<seg corresp="#mondo01.30.01">依</seg>二<seg corresp="#mondo01.30.02">縁</seg>。依至<lb n="ND10,0255a08"/>熏一也。縁至想二也。
+                        <seg type="hyosen1" corresp="mondo01.30.01">依種。無始妄熏上相生段所<lb n="ND10,0255a09"/>言之者。</seg>
+                        <seg type="hyosen1" corresp="#mondo01.30.02">縁種。自心識境上段所謂種種塵也。蓋此<lb n="ND10,0255a10"/>二滅共言六滅。不言七滅。此義詳見第二巻也。</seg>
+                        問。<lb n="ND10,0255a11"/>相流二滅云何有別。答。相滅者云形相滅也。故云
+                        <lb n="ND10,0255a12"/>一切根識滅也。流滅云因故云所因。曰相流二種
+                        <lb n="ND10,0255a13"/>階位如何。曰依彼八識自種諸境縁合生七。説爲
+                        <lb n="ND10,0255a14"/>相生。長劫熏習名爲相住。從末向本漸伏及斷。至
+                        <lb n="ND10,0255a15"/>七地滿。名爲相滅。由無明縁。初起業識。爲流注生。
+                        <lb n="ND10,0255a16"/>長劫相續爲流注住。到金剛定等覺一念斷本無
+                        <lb n="ND10,0255a17"/>明。名流注滅。曰上相生段説生後滅。此流注段何
+                        <lb n="ND10,0255b01"/>故置生只説滅乎。曰相流二法生法本一。滅有異
+                        <lb n="ND10,0255b02"/>故置生出滅。
+                    </seg></p>
+                </div5>
+                <div5 type="body" subtype="智箋"><p>
+                    <title type="desc">智箋</title><seg type="chisen" corresp="#BS04_04">平等</seg>。問答。相流生滅。平等一性。</p>
+                </div5>
+            </div4>
+            <div4 type="body" subtype="経文" xml:id="BS04_05"><p><lb n="ND10,0255b03"/><quote source="T0670_.16.0483a26-T0670_.16.0483b03">
+                <seg type="sutra" xml:id="mondo01.31">大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.32">
+                    <seg type="sutra1" xml:id="mondo01.32.01">譬如泥團微塵非異非不異。</seg>
+                    <seg type="sutra1" xml:id="mondo01.32.02">金莊嚴具亦復如<lb n="ND10,0255b04"/>是。</seg></seg>
+                <seg type="sutra" xml:id="mondo01.33">大慧。</seg>
+                <seg type="sutra" xml:id="mondo01.34">
+                    <seg type="sutra1" xml:id="mondo01.34.01">若泥團微塵異者非彼所成。而實彼成。是故<lb n="ND10,0255b05"/>不異。</seg>
+                    <seg type="sutra1" xml:id="mondo01.34.02">若不異者。則泥團微塵應無分別。</seg>
+                </seg>
+                <seg type="sutra" xml:id="mondo01.35">
+                    <seg type="word" xml:id="mondo01.35_w01">如是。大慧。</seg>
+                    <seg type="sutra1" xml:id="mondo01.35.02">轉<lb n="ND10,0255b06"/>識藏識眞相若異者。藏識非因。</seg>
+                    <seg type="sutra1" xml:id="mondo01.35.03">若不異者。轉識滅藏<lb n="ND10,0255b07"/>識亦應滅。而自眞相實不滅。</seg>
+                </seg>
+            </quote></p>
+            </div4>
+            <div4 type="body" subtype="注釈">
+                <div5 type="body" subtype="格箋"><p><lb n="ND10,0255b08"/>
+                    <title type="desc">格箋</title>。譬至是<seg type="kakusen" corresp="#mondo01.32">喩説</seg>。若至別<seg type="kakusen" corresp="#mondo01.34">析説</seg>。如至滅<seg type="kakuksen" corresp="#mondo01.35">合説</seg>。</p>
+                </div5>
+                <div5 type="body" subtype="平箋"><p><title type="desc">平箋</title>。<lb n="ND10,0255b09"/>
+                    <seg type="hyosen" corresp="#mondo01.32">喩段二種。一<seg type="hyosen1_name" corresp="#mondo01.32.01">泥塵</seg>。二<seg type="hyosen1_name" corresp="#mondo01.32.02">金具</seg>。譬至異一也。金至是二<lb n="ND10,0255b10"/>也。
+                        <seg type="hyosen1" corresp="#mondo01.32.01">一種。泥團者是微塵所成。而現二物故非同異。</seg><lb n="ND10,0255b11"/>
+                        <seg type="hyosen1" corresp="#mondo01.32.02">二種。金莊嚴具鐶釧釵等。鐶釵亦是黄金所成。與<lb n="ND10,0255b12"/>金二物而非同異。泥金二喩雖明眞妄異及不異。
+                            <lb n="ND10,0255b13"/>而泥塵者只局同異。金具喩者明眞不滅妄即滅<lb n="ND10,0255b14"/>也。
+                        </seg>
+                    </seg>
+                    <seg type="hyosen" corresp="#mondo01.34">析段二種。一同二異。若至異<seg type="hyosen1_name" corresp="#mondo01.34.01">一</seg>也。若至別<seg type="hyosen1_name" corresp="#mondo01.34.02">二</seg>也。<lb n="ND10,0255b15"/>
+                        <seg type="hyosen1" corresp="#mondo01.34.01">同種。若言泥團異于微塵。然泥團實微塵所成。故<lb n="ND10,0255b16"/>爲不異。</seg>
+                        <seg type="hyosen1" corresp="#mondo01.34.02">異種。若言泥塵即是同者。泥塵二種應無<lb n="ND10,0255b17"/>差別。而現別物故爲不同。問。何不言金。答。與泥一<lb n="ND10,0256a01"/>喩。不析自見。如來含蓄所以不説。</seg>
+                    </seg>
+                    <seg type="hyosen" corresp="#mondo01.35">合段。<seg type="gloss" xml:id="mondo01.35_w01_gloss" sameAs="#mondo01.35_w01">如是四字</seg><lb n="ND10,0256a02"/><seg type="explanationOf" corresp="#mondo01.35_w01_gloss">牒稱之句</seg>。
+                        亦爲二種。一<seg type="hyosen1_name" corresp="#mondo01.35.02">同</seg>二<seg type="hyosen1_name" corresp="#mondo01.35.03">異</seg>。轉至因一也。若至<lb n="ND10,0256a03"/>滅二也。
+                        <seg type="hyosen1" corresp="#mondo01.35.02">同種。轉識者上分別事識。藏識現識。眞相<lb n="ND10,0256a04"/>眞識。言六與八眞相是同。若言別者第八識非第<lb n="ND10,0256a05"/>六識因。然實是因。同因之故爲不異也。下偈不壞
+                            <lb n="ND10,0256a06"/>相有八者此眞相意。</seg>
+                        <seg type="hyosen1" corresp="#mondo01.35.03">異種。若亦言同。六識滅時八<lb n="ND10,0256a07"/>識當滅。然八眞相常住不滅。是故不同。猶如泥塵<lb n="ND10,0256a08"/>異不異義。</seg>
+                    </seg></p>
+                </div5>
+                <div5 type="body" subtype="智箋"><p>
+                    <title type="desc">智箋</title><seg type="kakusen" corresp="#BS04_05">觀察</seg>。問答。喩合分別觀察妙智。</p>
+                </div5>
+            </div4>
+            <div4 type="body" subtype="経文" xml:id="BS04_06"><p><lb n="ND10,0256a09"/><quote source="T0670_.16.0483b03-T0670_.16.0483b10">
+                <seg type="sutra" xml:id="mondo01.36">
+                    <seg type="sutra1" xml:id="mondo01.36.01">是故大慧。非自眞相識滅。但業相滅。</seg>
+                    <seg type="sutra1" xml:id="mondo01.36.02">若自眞相滅者<lb n="ND10,0256a10"/>藏識則滅。大慧。藏識滅者不異外道斷見論議。</seg>
+                </seg>
+                <seg type="sutra" xml:id="mondo01.37">大慧。<lb n="ND10,0256a11"/></seg>
+                <seg type="sutra" xml:id="mondo01.38">
+                    <seg type="sutra1" xml:id="mondo01.38.01">彼諸外道作如是論。謂攝受境界滅識流注亦滅。</seg>
+                    <seg type="sutra1" xml:id="mondo01.38.02">若<lb n="ND10,0256a12"/>識流注滅者。無始流注應斷。</seg>
+                    <seg type="sutra1" xml:id="mondo01.38.03">大慧。外道説流注生因。<lb n="ND10,0256a13"/>非眼識色明集會而生。更有異因。</seg>
+                    大慧。
+                    <seg type="sutra1" xml:id="mondo01.38.04">彼因者。説言<lb n="ND10,0256a14"/>若勝妙。若士夫。若自在。若時。若微塵。</seg>
+                </seg></quote></p>
+            </div4>
+            <div4 type="body" subtype="注釈">
+                <div5 type="body" subtype="格箋"><p><lb n="ND10,0256a15"/>
+                    <title type="desc">格箋</title>。是至議<seg type="kakusen" corresp="#mondo01.36">辨説</seg>。彼至塵<seg type="kakusen" corresp="#mondo01.38">證説</seg>。</p>
+                </div5>
+                <div5 type="body" subtype="平箋"><p>
+                    <title type="desc">平箋</title>。
+                    <seg type="hyosen" corresp="#mondo01.36">辨段二種。一<lb n="ND10,0256a16"/><seg type="hyosen1_name" corresp="#mondo01.36.01">釋</seg>二<seg type="hyosen1_name" corresp="#mondo01.36.02">比</seg>。是至滅一也。若至議二也。
+                        <seg type="hyosen1" corresp="#mondo01.36.01">釋種。諸識有滅<lb n="ND10,0256a17"/>只業轉滅。非眞相滅。</seg>
+                        <seg type="hyosen1" corresp="#mondo01.36.02">比種。若眞相滅藏識亦滅。八<lb n="ND10,0256b01"/>識滅義外道斷見。佛法不爾。</seg>
+                    </seg>
+                    <seg type="hyosen" corresp="#mondo01.38">證段四種。一<seg type="hyosen1_name" corresp="#mondo01.38.01">擧</seg>。二<seg type="hyosen1_name" corresp="#mondo01.38.02">難</seg>。<lb n="ND10,0256b02"/>三<seg type="hyosen1_name" corresp="#mondo01.38.03">建</seg>。四<seg type="hyosen1_name" corresp="#mondo01.38.04">數</seg>。
+                        彼至滅一也。若至斷二也。大至因三也。<lb n="ND10,0256b03"/>彼至塵四也。
+                        <seg type="hyosen1" corresp="#mondo01.38.01">擧種。諸外道云所攝。現在根境滅時<lb n="ND10,0256b04"/>能攝心識相續亦滅。</seg>
+                        <seg type="hyosen1" corresp="#mondo01.38.02">難種。夫流注者云眞相也。蓋<lb n="ND10,0256b05"/>流注者相續之義。相績不斷故爲眞常。如來所説
+                            <lb n="ND10,0256b06"/>諸識三相。轉業雖滅。眞相不滅。外道不知。只見境
+                            <lb n="ND10,0256b07"/>界轉業相滅。錯言六識眞相共滅。是故如來加難
+                            <lb n="ND10,0256b08"/>斥言。不分業轉而言識滅。無始元本眞相當斷。蓋
+                            <lb n="ND10,0256b09"/>境滅時識隨滅者六識轉業二相滅也。六識眞相
+                            <lb n="ND10,0256b10"/>末曾滅也。六識八識眞相一故。是故佛言。六識眞
+                            <lb n="ND10,0256b11"/>滅八識眞相亦復須滅。</seg>
+                        <seg type="hyosen1" corresp="#mondo01.38.03">建種。外道中言。相續諸識
+                            <lb n="ND10,0256b12"/>非眼根及眼識色塵光明四法集合有生。亦有別
+                            <lb n="ND10,0256b13"/>因。四合生因六種當有。今出眼識。省文之故。</seg>
+                        <seg type="hyosen1" corresp="#mondo01.38.04">數種。
+                            <lb n="ND10,0256b14"/>勝妙即是毘紐翻名。外道中言。一切衆生大祖父
+                            <lb n="ND10,0256b15"/>也。士夫者是神我別名。外道亦言。世性大人衆生
+                            <lb n="ND10,0256b16"/>本姓。此五種因詳見第三。</seg>
+                    </seg></p>
+                </div5>
+                <div5 type="body" subtype="智箋"><p>
+                    <title type="desc">智箋</title><seg type="chisen" corresp="#BS04_06">成作</seg>。問答。外道諸<lb n="ND10,0256b17"/>計妄執作成。</p>
+                </div5>
+            </div4>
+        </div3>
+        
+        <lb n="ND10,0265b15"/>
+        <div3 type="body" subtype="識轉不壞分第四"><p>識轉不壞分第四</p>
+            <div4 type="body" subtype="経文" xml:id="BS04_18"><p><lb n="ND10,0265b16"/><quote source="T0670_.16.0484a06-T0670_.16.0484a10">
+              <seg type="sutra" xml:id="mondo04.01">爾時大慧菩薩復白佛言。</seg>
+              <seg type="sutra" xml:id="mondo04.02">世尊所説心意意識五法<lb n="ND10,0265b17"/>自性相。</seg>
+              <seg type="sutra" xml:id="mondo04.03">
+                <seg type="sutra1" xml:id="mondo04.03.01">
+                    <seg type="sutra2" xml:id="mondo04.03.01.01">一切諸佛菩薩所行。自心見等所縁境界不<lb n="ND10,0266a01"/>和合。</seg>
+                    <seg type="sutra2" xml:id="mondo04.03.01.02">顯示一切説成眞實相。</seg>
+                </seg>
+                <seg type="sutra1" xml:id="mondo04.03.02">一切佛語心</seg>
+              </seg>
+              <seg type="sutra" xml:id="mondo04.04"><seg type="sutra1" xml:id="mondo04.04.01">爲楞伽國<lb n="ND10,0266a02"/>摩羅耶山海中住處</seg><seg type="sutra1" xml:id="mondo04.04.02">諸大菩薩。</seg><seg type="sutra1" xml:id="mondo04.04.03">説如來所歎海浪藏<lb n="ND10,0266a03"/>識境界法身。</seg></seg></quote></p></div4>
+            <div4 type="body" subtype="注釈">
+                <div5 type="body" subtype="承趣">
+                    <p><lb n="ND10,0266a04"/>承趣。上菩薩人四種轉進得如來身。是即識轉不<lb n="ND10,0266a05"/>壞之旨爲證其義此分次焉。不壞即是眞如體相。<lb n="ND10,0266a06"/>眞如體是成眞實相。眞實相是藏識法身。</p>
+                </div5>
+                <div5 type="body" subtype="偈合">
+                    <p>偈合。諸<lb n="ND10,0266a07"/>識重説。</p>
+                </div5>
+                <div5 type="body" subtype="格箋">
+                    <p>格箋。世至相<seg type="kakusen" corresp="#mondo04.02">擧啓</seg>。一至心<seg type="kakusen" corresp="#mondo04.03">析啓</seg>。爲至身<seg type="kakusen" corresp="#mondo04.04">樂<lb n="ND10,0266a08"/>啓</seg>。</p>
+                </div5>
+                <div5 type="body" subtype="平箋">
+                    <p><title type="desc">平箋</title>。
+                        <seg type="hyosen" corresp="#mondo04.02">擧段。牒佛上説心識諸法。問。上説心識。未
+                            <lb n="ND10,0266a09"/>説五法及三自性。何故牒擧未説法耶。答。八識五<lb n="ND10,0266a10"/>法三自性等一種法門。而八五三互相攝入。故雖
+                            <lb n="ND10,0266a11"/>未説幷而言之。</seg>
+                        <seg type="hyosen" corresp="#mondo04.03">析段二種。
+                            一<seg type="hyosen1_name" corresp="#mondo04.03.01">別</seg>二<seg type="hyosen1_name" corresp="#mondo04.03.02">總</seg>。一至相一也。<lb n="ND10,0266a12"/>一至心二也。
+                            <seg type="hyosen1" corresp="#mondo04.03.01">別種亦二。一<seg type="hyosen2_name" corresp="mondo04.03.01.01">簡</seg>二<seg type="hyosen2_name" corresp="#mondo04.03.01.02">合</seg>。一至合一也。顯<lb n="ND10,0266a13"/>至相二也。
+                                <seg type="hyosen2" corresp="#mondo04.03.01.01">簡種。八五三法佛菩薩等所修行也。二<lb n="ND10,0266a14"/>乘外道非其分也。是以妄心惡見攀縁境相不有<lb n="ND10,0266a15"/>和合。</seg>
+                                <seg type="hyosen2" corresp="#mondo04.03.01.02">合種。然此法門雖離妄境。顯示萬法皆成實<lb n="ND10,0266a16"/>相。</seg>
+                            </seg>
+                            <seg type="hyosen1" corresp="#mondo04.03.02">總種。如是成相爲一法界。此法昇心三世一切<lb n="ND10,0266a17"/>諸佛所説。謂此會上佛語心也。</seg>
+                        </seg>
+                        <seg corresp="#mondo04.04">樂段三種。一<seg type="hyosen1_name" corresp="#mondo04.04.01">境</seg>。二<lb n="ND10,0266b01"/><seg type="hyosen1_name" corresp="#mondo04.04.02">人</seg>。三<seg type="hyosen1_name" corresp="#mondo04.04.03">法</seg>。爲至處一也。諸至薩二也。説至身三也。
+                            <seg type="hyosen1" corresp="#mondo04.04.01">境<lb n="ND10,0266b02"/>種。楞伽摩耶解已見上。又摩羅耶旃檀異名。</seg>
+                            <seg type="hyosen1" corresp="#mondo04.04.02">人種。<lb n="ND10,0266b03"/>此會純聖亦無二乘於是見焉。</seg>
+                            <seg type="hyosen1" corresp="#mondo04.04.03">法種。三世諸佛稱
+                                <lb n="ND10,0266b04"/>讃演説。故云如來所嘆也矣。心海識浪種種諸法。
+                                <lb n="ND10,0266b05"/>浪乃至法身。古人有云。問在答處。答在問處。大慧
+                                <lb n="ND10,0266b06"/>此問其庶幾乎。如來又承此問。宜乎有自覺説。法
+                                <lb n="ND10,0266b07"/>身教主其不然哉。故魏譯云。法身如來所説法故。</seg>
+                        </seg>                           
+            </p></div5></div4></div3></div2></div1>
+</body>
+</text>
+</TEI>

@@ -18,7 +18,11 @@
             {
                 selector: 'l',
                 label: '和歌'
-            }
+            },
+            {
+                selector: 'seg[type="解説"]',
+                label: '解説'
+            },
         ],
         typeToGraphLabelMapping: {
             'kakusen': '格箋',
